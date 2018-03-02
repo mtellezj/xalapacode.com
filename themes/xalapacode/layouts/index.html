@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+{{ partial "head.html" . }}
+
+<body>
+<div class="page homepage">
+  {{ partial "header.html" . }}
+
+  <main>
+    <div class="hero" style="background-image: url('{{ .Params.hero_img }}');">
+      <div class="hero-title">
+        <h1>{{ .Title }}</h1>
+      </div>
+      <div class="hero-content">
+        {{ .Description }}
+      </div>
+    </div>
+
+    <div class="grid sections">
+      <div class="item">
+        {{ partial "evento.html" . }}
+      </div>
+      <div class="item">
+        {{ partial "platica.html" . }}
+      </div>
+      <div class="item">
+        {{ partial "oferta.html" . }}
+      </div>
+      <div class="item">
+        {{ partial "blog.html" . }}
+      </div>
+    </div>
+
+    <div class="colophone">
+      <div class="container">
+        {{ .Params.colophone }}
+      </div>
+    </div>
+  </main>
+
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+</body>
+</html>

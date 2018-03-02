@@ -1,0 +1,18 @@
+.footer {
+  padding: 2em;
+  background-color: $blueking;
+  text-align: center;
+  color: #fff;
+
+  .social {
+    width: 120px;
+    margin: 1em auto;
+
+    a {
+      margin-right: 1em;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

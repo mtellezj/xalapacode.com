@@ -1,0 +1,27 @@
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 400px;
+  font-size: 26px;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 50px;
+  line-height: 1.6em;
+  letter-spacing: 0.85px;
+  .hero-title,
+  .hero-content {
+    display: block;
+    max-width: 600px;
+  }
+  .hero-title {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    max-width: 300px;
+  }
+}

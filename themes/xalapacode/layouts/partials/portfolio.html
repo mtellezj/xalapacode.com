@@ -1,0 +1,12 @@
+<div class="portfolio">
+  <div class="container">
+		<div class="row">
+			{{ range first 4 (where .Data.Pages.ByPublishDate.Reverse "Type" "=" "portafolio")}}
+				<div class="col-md-6 col-xs-6 item">
+					<a href="{{ .Permalink }}"><img class="item-thumbnail" data-src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
+					<h2 class="item-title"><a href="{{ .Permalink }}">{{ .Title }} </a></h2>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</div>

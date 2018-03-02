@@ -1,0 +1,20 @@
+<header class="header">
+	<div class="banner">
+		<div class="button-nav">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</div>
+		<nav class="nav">
+			{{ range .Site.Menus.main }}
+				<a href="{{ .URL }}">{{ .Name }}</a>
+			{{ end }}
+		</nav>
+		<div class="headline">
+			<h2>{{ .Params.slogan }}</h2>
+		</div>
+	</div>
+	<div class="logo">
+		<img src="/img/sandia-logo.png" alt="Logotype">
+	</div>
+</header>

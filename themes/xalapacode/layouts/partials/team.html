@@ -1,0 +1,5 @@
+<div class="team">
+  {{ range (where .Data.Pages "Type" "=" "team")}}
+  <div class="member"></div>
+  {{ end }}
+</div>

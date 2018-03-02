@@ -1,0 +1,66 @@
+baseURL = "/"
+languageCode = "es-mx"
+publishDir = "public"
+title = "Xalapacode"
+theme = "xalapacode"
+defaultContentLanguage = "es"
+enableRobotsTXT = true
+enableEmoji = true
+canonifyURLs = true
+uglyURLs = false
+
+[taxonomies]
+category = "categorias"
+tag = "etiquetas"
+
+# menu
+
+[[ menu.main ]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[ menu.main ]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[ menu.main ]]
+name = "Eventos"
+url = "/eventos"
+weight = 3
+
+[[ menu.main ]]
+name = "Platicas"
+url = "/platicas"
+weight = 4
+
+[[ menu.main ]]
+name = "Ofertas"
+url = "/ofertas"
+weight = 5
+
+[[ menu.main ]]
+name = "Patrocinadores"
+url = "/patrocinadores"
+weight = 6
+
+[[ menu.main ]]
+name = "Contacto"
+url = "/contacto"
+weight = 7
+
+[[ menu.social ]]
+name = "twitter"
+url = "https://twitter.com/xalapacode"
+weight = 1
+
+[[ menu.social ]]
+name = "github"
+url = "https://instagram.com/xalapacode"
+weight = 2
+
+[[ menu.social ]]
+name = "facebook"
+url = "https://facebook.com/xalapacode"
+weight = 3

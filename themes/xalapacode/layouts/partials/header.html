@@ -1,0 +1,10 @@
+<header class="header">
+  <nav class="nav">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+  <div class="logo">
+    <img src="/img/xalapacode.jpg" alt="Logotipo XalapaCode">
+  </div>
+</header>
