@@ -6,3 +6,5 @@ sponsor_type = "Aliado"
 +++
 
 Sandia es un estudio de diseño web y gráfico creado con el objetivo de acercar el diseño y la Web a los negocios y personas.
+
+Sandia apoya a XalapaCode con el diseño y hospedaje del sitio de XalapaCode.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+{{ partial "head.html" . }}
+
+<body class="single single-events">
+  {{ partial "header.html" . }}
+
+  <main>
+    <div class="post-title">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="post-content">
+      {{ .Params.description }}
+    </div>
+    <div class="post-footer">
+      <a href="{{ .Permalink }}">Leer más</a>
+    </div>
+  </main>
+
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+</body>
+</html>

@@ -1,6 +1,9 @@
-<section class="section">
+<section class="section offer">
   <div class="container">
-		{{ range first 4 (where .Data.Pages "Type" "=" "oferta")}}
+		<div class="section-title">
+			<h1>Ofertas de trabajo</h1>
+		</div>
+		{{ range first 4 (where .Data.Pages "Type" "=" "ofertas")}}
 			<div class="post-title">
 				<h1>{{ .Title }}</h1>
 			</div>

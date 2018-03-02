@@ -16,13 +16,13 @@ tag = "etiquetas"
 # menu
 
 [[ menu.main ]]
-name = "Home"
+name = "Inicio"
 url = "/"
 weight = 1
 
 [[ menu.main ]]
-name = "Blog"
-url = "/blog"
+name = "Acerca de"
+url = "/acercade"
 weight = 2
 
 [[ menu.main ]]
@@ -49,6 +49,11 @@ weight = 6
 name = "Contacto"
 url = "/contacto"
 weight = 7
+
+[[ menu.main ]]
+name = "Blog"
+url = "/blog"
+weight = 8
 
 [[ menu.social ]]
 name = "twitter"

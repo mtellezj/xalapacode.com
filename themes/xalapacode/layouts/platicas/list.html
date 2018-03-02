@@ -3,12 +3,21 @@
 
 {{ partial "head.html" . }}
 
-<body>
-<div class="page homepage">
+<body class="page page-talks">
   {{ partial "header.html" . }}
 
   <main>
-
+    {{ range .Data.Pages.ByDate.Reverse}}
+			<div class="post-title">
+				<h1>{{ .Title }}</h1>
+			</div>
+			<div class="post-content">
+				{{ .Params.description }}
+			</div>
+			<div class="post-footer">
+				<a href="{{ .Permalink }}">Leer más</a>
+			</div>
+		{{ end }}
   </main>
 
   {{ partial "footer.html" . }}

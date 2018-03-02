@@ -1,14 +1,8 @@
-<section class="section">
+<section class="section events">
   <div class="container">
-		{{ range first 4 (where .Data.Pages "Type" "=" "evento")}}
-			<div class="post-title">
-				<h1>{{ .Title }}</h1>
-			</div>
-			<div class="post-content">
-				{{ .Params.description }}
-			</div>
-			<div class="post-footer">
-				<a href="{{ .Permalink }}">Leer más</a>
+		{{ range first 4 (where .Data.Pages "Type" "=" "eventos")}}
+			<div class="post-thumbnail">
+				<a href="{{ .Permalink }}"><img src="{{ .Params.event_flyer }}" alt="Cartel del evento"></a>
 			</div>
 		{{ end }}
 	</div>
