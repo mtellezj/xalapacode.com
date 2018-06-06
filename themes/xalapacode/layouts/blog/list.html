@@ -6,8 +6,8 @@
 <body class="page page-blog">
   {{ partial "header.html" . }}
 
-  <main>
-    {{ range .Data.Pages.ByDate.Reverse}}
+  <main class="main">
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
 			<div class="post-title">
 				<h1>{{ .Title }}</h1>
 			</div>

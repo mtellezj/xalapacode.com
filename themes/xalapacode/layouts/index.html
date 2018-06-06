@@ -6,32 +6,10 @@
 <body class="page homepage">
   {{ partial "header.html" . }}
 
-  <div class="hero" style="background-image: url('{{ .Params.hero_img }}');">
-    <div class="hero-title">
-      <h1>{{ .Title }}</h1>
-    </div>
-    <div class="hero-content">
-      {{ .Description }}
-    </div>
-  </div>
+  <main class="main">
+		<div class="blog">
 
-  <main>
-    <div class="grid">
-      <div class="main">
-          {{ partial "evento.html" . }}
-      </div>
-      <div class="sidebar">
-        {{ partial "oferta.html" . }}
-        {{ partial "blog.html" . }}
-        {{ partial "patrocinador.html" . }}
-      </div>
-    </div>
-
-    <div class="colophone">
-      <div class="container">
-        {{ .Params.colophone }}
-      </div>
-    </div>
+		</div>
   </main>
 
   {{ partial "footer.html" . }}

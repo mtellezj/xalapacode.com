@@ -7,7 +7,10 @@
   {{ partial "header.html" . }}
 
   <main>
-    {{ range .Data.Pages.ByDate.Reverse}}
+  	<div>
+  		{{ .Content }}
+  	</div>
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
 			<div class="post-title">
 				<h1>{{ .Title }}</h1>
 			</div>

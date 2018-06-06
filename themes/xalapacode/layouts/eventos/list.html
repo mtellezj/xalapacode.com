@@ -6,7 +6,7 @@
 <body class="page page-events">
   {{ partial "header.html" . }}
 
-  <main>
+  <main class="main">
     {{ range .Data.Pages.ByDate.Reverse}}
 			<div class="post-title">
 				<h1>{{ .Title }}</h1>

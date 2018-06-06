@@ -3,12 +3,11 @@
 
 {{ partial "head.html" . }}
 
-<body>
-<div class="page page-sponsors">
+<body class="page page-sponsors">
   {{ partial "header.html" . }}
 
-  <main>
-    {{ range .Data.Pages.ByDate.Reverse}}
+  <main class="main">
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
 			<div class="post-title">
 				<h1>{{ .Title }}</h1>
 			</div>

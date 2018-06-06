@@ -6,8 +6,24 @@
 <body class="page page-contact">
   {{ partial "header.html" . }}
 
-  <main>
-    {{ .Description }}
+  <main class="main">
+    <form action="">
+    	<fieldset>
+    		<label for="name">Nombre</label>
+    		<input type="text" name="name">
+    	</fieldset>
+    	<fieldset>
+    		<label for="email">Email</label>
+    		<input type="email" name="email">
+    	</fieldset>
+    	<fieldset>
+    		<label for="message">Mensaje o asunto:</label>
+    		<textarea name="message" cols="30" rows="10"></textarea>
+    	</fieldset>
+    	<fieldset>
+    		<input type="submit" value="Enviar">
+    	</fieldset>
+    </form>
   </main>
 
   {{ partial "footer.html" . }}

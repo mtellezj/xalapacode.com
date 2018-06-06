@@ -7,15 +7,15 @@ Bienvenidos al sitio web oficial de la comunidad XalapaCode.
 
 # ¿Para qué es?
 
-Una comunidad de programadores y diseñadores para programadores y diseñadores
+Una comunidad de programadores, diseñadores y entusiastas de la tecnologia que se reunen periodicamente en la ciudad de Xalapa, Veracruz.
 
 # ¿Por qué?
 
-Por que es importante compartir y aprender de lo que se comparte
+Por que creemos que compartir, emprender y enseñar son el mejor paso para mentorar a las personas interesadas en aprender.
 
 # ¿Comó?
 
-Reuniendonos cada que se pueda para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos.
+Reuniendonos cada que se pueda para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias 
 
 # Código de Conducta
 

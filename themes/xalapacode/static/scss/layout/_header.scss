@@ -1,5 +1,5 @@
 .header {
-  padding: 2em;
+  padding: 2em 0 0;
 
   .nav {
     display: flex;
@@ -12,11 +12,11 @@
     a {
       margin-right: 1em;
       text-decoration: none;
-      color: $blueking;
+      color: $blacker;
       font-size: 0.95rem;
       font-weight: bold;
       &:hover {
-        color: $orange;
+        color: $bluelight;
       }
       &:last-child {
         margin-right: 0;
@@ -26,8 +26,7 @@
 
   .logo img {
     display: block;
-    width: 100px;
-    border-radius: 50%;
+    width: 240px;
     margin: 0 auto;
   }
 }
