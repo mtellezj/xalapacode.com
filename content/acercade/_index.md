@@ -5,39 +5,38 @@ description = "Acerca de XalapaCode"
 
 Bienvenidos al sitio web oficial de la comunidad XalapaCode.
 
-# ¿Para qué es?
+# ¿Por qué?
+
+Por que creemos que compartir, colaborar y convivir es una manera de mejorar como personas y profesionales.
+
+# ¿Qué es?
 
 Una comunidad de programadores, diseñadores y entusiastas de la tecnologia que se reunen periodicamente en la ciudad de Xalapa, Veracruz.
 
-# ¿Por qué?
-
-Por que creemos que compartir, emprender y enseñar son el mejor paso para mentorar a las personas interesadas en aprender.
-
 # ¿Comó?
 
-Reuniendonos cada que se pueda para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias 
+Reuniendonos periodicamente para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias entre otras actividades.
 
 # Código de Conducta
 
-* No hagan lo que no harían en su casa
-* Respeto al que esta en frente y al lado
-* El acoso no esta permitido en ninguna de sus formas
-* Compartir, iterar.
-* El café y galletas son bienvenidos
+Nos adherimos al Contributor Convenant [Contributor Conventan](https://www.contributor-covenant.org)
+
+Para una versión en español favor de visitar [Convenio de Contribuidor](https://xalapacode.com/codigo-conducta)
 
 # Participa
 
 * Da una charla
 * Difunde la comunidad
-* Programa o diseña
-* Pregunta
+* Programa, diseña, construe o mejora algo
+* Pregunta, siempre pregunta
 * Adopta a un newbie
-* Contrata
-* Patrocina
+* Contrata o ayuda a contratar a alguien
+* Patrocina (café y galletas son siempre bienvenidos)
 * Contribuye a este sitio
 
-# Redes sociales
+# Sitios externos
 
 [Twitter](https://twitter.com/xalapacode)
 [Gitter](https://gitter.im/xalapacode/Lobby)
 [Facebook](https://facebook.com/xalapacode)
+[Github](https://github.com/xalapacode)

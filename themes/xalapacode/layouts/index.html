@@ -4,15 +4,30 @@
 {{ partial "head.html" . }}
 
 <body class="page homepage">
-  {{ partial "header.html" . }}
 
   <main class="main">
-		<div class="blog">
-
-		</div>
+		<section class="about">
+			<div class="logo">
+				<img src="img/logo.png" alt="XalapaCode">
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="https://www.meetup.com/XalapaCode/">Meetup.com</a></li>
+					<li><a href="https://www.twitter.com/xalapacode">Twitter</a></li>
+				</ul>
+			</div>
+		</section>
+		<!-- <section class="events">
+			<h1>Eventos</h1>
+		</section>
+		<section class="partners">
+			<h1>Patrocinadores</h1>
+		</section>
+		<section class="talks">
+			<h1>Platicas</h1>
+		</section> -->
   </main>
 
   {{ partial "footer.html" . }}
-  {{ partial "scripts.html" . }}
 </body>
 </html>

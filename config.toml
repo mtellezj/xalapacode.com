@@ -36,13 +36,13 @@ weight = 2
 # weight = 4
 
 [[ menu.main ]]
-name = "Vacantes"
-url = "/vacantes"
+name = "Bolsa de Trabajo"
+url = "/bolsadetrabajo"
 weight = 5
 
 [[ menu.main ]]
-name = "Apoyo"
-url = "/apoyo"
+name = "Patrocinadores"
+url = "/patrocinadores"
 weight = 6
 
 [[ menu.main ]]
