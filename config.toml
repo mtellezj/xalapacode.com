@@ -25,15 +25,15 @@ name = "Acerca de"
 url = "/acercade"
 weight = 2
 
-# [[ menu.main ]]
-# name = "Eventos"
-# url = "/eventos"
-# weight = 3
+[[ menu.main ]]
+name = "Eventos"
+url = "/eventos"
+weight = 3
 
-# [[ menu.main ]]
-# name = "Platicas"
-# url = "/platicas"
-# weight = 4
+[[ menu.main ]]
+name = "Platicas"
+url = "/platicas"
+weight = 4
 
 [[ menu.main ]]
 name = "Bolsa de Trabajo"

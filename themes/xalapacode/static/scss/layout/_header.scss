@@ -1,32 +1,12 @@
 .header {
-  padding: 2em 0 0;
-
-  .nav {
-    display: flex;
-    width: 620px;
-    margin: 0 auto 2em;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: space-around;
-    a {
-      margin-right: 1em;
-      text-decoration: none;
-      color: $blacker;
-      font-size: 0.95rem;
-      font-weight: bold;
-      &:hover {
-        color: $bluelight;
-      }
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  .logo img {
-    display: block;
-    width: 240px;
-    margin: 0 auto;
-  }
+	.nav {
+		.menu {
+			padding-top: 20px;
+			a {
+				text-decoration: none;
+				color: blue;
+				padding-right: 1em;
+			}
+		}
+	}
 }
