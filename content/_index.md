@@ -1,6 +1,6 @@
 +++
 title = "xalapacode"
-description = "es una comunidad de creadores tecnologicos que se reunen a compartir, debatir y enseñar en la ciudad de Xalapa."
+description = "es una comunidad de creadores tecnológicos que se reunen a compartir, debatir, enseñar y aprender en la ciudad de Xalapa realizando diversos eventos."
 cta = "Participa"
 cta_link = "join"
 cta2 = "Conoce más"
