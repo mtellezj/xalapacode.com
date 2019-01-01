@@ -69,6 +69,10 @@ p, a, li {
   font-size: 1.2rem;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .btn {
   display: block;
   font-size: 1rem;
@@ -305,6 +309,17 @@ form input[type=submit] {
     display: block;
     width: 90%;
   }
+}
+.single-blog .post-meta,
+.single-sponsors .post-meta {
+  padding: 1em 0;
+}
+.single-blog .post-meta span, .single-blog .post-meta a, .single-blog .post-meta li, .single-blog .post-meta p,
+.single-sponsors .post-meta span,
+.single-sponsors .post-meta a,
+.single-sponsors .post-meta li,
+.single-sponsors .post-meta p {
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */

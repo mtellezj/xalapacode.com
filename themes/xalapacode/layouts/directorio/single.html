@@ -16,6 +16,12 @@
 					<div class="post-thumbnail">
 						<img src="{{ .Params.thumbnail }}" alt="{{ .Params.nickname }}" class="thumbnail">
 					</div>
+					<div class="post-meta">
+						<div class="rol"><strong>Rol</strong>: {{ .Params.rol }}</div>
+						<div class="disponibility"><strong>Disponibilidad para trabajo</strong>: {{ .Params.disponibility }}</div>
+						<div class="website"><strong>Sitio Web</strong>: <a href="{{ .Params.website }}">{{ .Params.website }}</a></div>
+						<div class="skills"><strong>Habilidades:</strong> {{ .Params.skills }}</div>
+					</div>
 					<div class="post-content">
 						<p>{{ .Content }}</p>
 					</div>

@@ -9,23 +9,25 @@
   <main class="main">
     <div class="container">
     	<div class="row">
-    		<div class="col-100">
-    			{{ range .Data.Pages.ByDate.Reverse}}
-						<div class="post-title">
-							<h1>{{ .Params.name }}</h1>
-						</div>
-						<div class="post-thumbnail">
-							<img src="{{ .Params.thumbnail }} " alt="{{ .Params.name }}" class="thumbnail">
-						</div>
-						<div class="post-content">
-							<div class="description"><strong>Descripción</strong>: {{ .Params.description }}</div>
-							<div class="skills"><strong>Habilidades:</strong> {{ .Params.skills }}</div>
-						</div>
-						<div class="post-footer">
-							<a href="{{ .Permalink }}">Leer más</a>
-						</div>
-					{{ end }}
-    		</div>
+  			{{ range .Data.Pages.ByDate.Reverse}}
+  			<div class="col-100">
+					<div class="post-title">
+						<h1>{{ .Params.name }}</h1>
+					</div>
+					<div class="post-thumbnail">
+						<img src="{{ .Params.thumbnail }} " alt="{{ .Params.name }}" class="thumbnail">
+					</div>
+					<div class="post-content">
+						<div class="rol"><strong>Rol</strong>: {{ .Params.rol }}</div>
+						<div class="disponibility"><strong>Disponibilidad para trabajo</strong>: {{ .Params.disponibility }}</div>
+						<div class="description"><strong>Descripción</strong>: {{ .Params.description }}</div>
+						<div class="skills"><strong>Habilidades:</strong> {{ .Params.skills }}</div>
+					</div>
+					<div class="post-footer">
+						<a href="{{ .Permalink }}">Leer más</a>
+					</div>
+				</div>
+				{{ end }}
     	</div>
     </div>
   </main>
