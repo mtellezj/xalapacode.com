@@ -1,9 +1,9 @@
 +++
 title = "Comunidad Campus Party"
 date = "2018-06-06T12:00:00-06:00"
-draft = false
-thumbnail = "img/blog/comunidades.png"
-description = "¡XalapaCode va a Campus Party!"
+draft = true
+thumbnail = "/img/blog/comunidades.png"
+description = "¡xalapacode va a Campus Party!"
 +++
 
 Hace unas semanas fuimos notificados con la noticia de que ibamos a [Campus Party México](http://mexico.campus-party.org) como comunidad oficial y estamos muy emocionados de poder participar en uno de los eventos mas importantes de tecnologia en el mundo.
@@ -26,4 +26,4 @@ Decir que Campus Party es solo un evento es dejar de enumerar todo lo que repres
 
 Emocionante ¿verdad?. Pues este año habrá 690 speakers, 800 horas de contenido, 300 universidades y 700 comunidades. Un festival total.
 
-Faltan 47 días, si aun no tienes entrada puedes [comprarlas aquí](http://mexico.campus-party.org/mexico.campus-party.org/entradas/) si eres miembro de XalapaCode entonces tienes derecho a un descuento en la compra de tu entrada. Contactanos por [Facebook](https://facebook.com/xalapacode) o Twitter para saber como.
+Faltan 47 días, si aun no tienes entrada puedes [comprarlas aquí](http://mexico.campus-party.org/mexico.campus-party.org/entradas/) si eres miembro de xalapacode entonces tienes derecho a un descuento en la compra de tu entrada. Contactanos por [Facebook](https://facebook.com/xalapacode) o Twitter para saber como.

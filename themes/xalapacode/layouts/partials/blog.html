@@ -1,18 +1,10 @@
-<section class="section">
-  <div class="container">
-		<div class="section-title">
-			<h1>Ultimos post de la comunidad</h1>
-		</div>
+<section class="section blog">
+	<div class="section-title">
+		<h2>Blog Comunidad</h2>
+	</div>
+	<div class="section-content">
 		{{ range first 4 (where .Data.Pages "Type" "=" "blog")}}
-			<div class="post-title">
-				<h1>{{ .Title }}</h1>
-			</div>
-			<div class="post-content">
-				{{ .Params.description }}
-			</div>
-			<div class="post-footer">
-				<a href="{{ .Permalink }}">Leer más</a>
-			</div>
+			{{ partial "post-tiny.html" . }}
 		{{ end }}
 	</div>
 </section>

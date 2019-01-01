@@ -7,7 +7,7 @@ function ready(fn) {
 }
 
 function starter() {
-	console.log('XalapaCode in the house');
+	console.log('xalapacode in the house');
 
 	let logo = document.querySelectorAll('.logo img');
 	el.addEventListener('contextmenu', function(event){

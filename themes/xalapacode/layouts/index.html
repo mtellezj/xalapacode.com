@@ -6,14 +6,8 @@
 <body class="page homepage">
 	{{ partial "header.html" . }}
   <main class="main">
-		<div class="about">
-			<div class="container">
-				<div class="row">
-					<h2>Una tarde para compartir, colaborar y conectar</h2>
-					<h3><strong>xalapacode</strong>, construyamos juntos </h3>
-				</div>
-			</div>
-		</div>
+		{{ partial "about.html" . }}
+		{{ partial "join.html" . }}
   </main>
 
 	{{ partial "scripts.html" . }}

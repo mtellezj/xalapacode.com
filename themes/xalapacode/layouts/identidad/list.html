@@ -7,7 +7,20 @@
 	{{ partial "header.html" . }}
 
 	<main class="main">
-
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					<p>{{ .Description }}</p>
+					<img src="{{ .Params.image }}" alt="{{ .Title }}">
+					<br>
+					<p>{{ .Params.downloads }}</p>
+					<div>
+						{{ .Content }}
+					</div>
+					<p><a download="{{ .Params.source }}"></a></p>
+				</div>
+			</div>
+		</div>
 	</main>
 
 	{{ partial "footer.html" . }}

@@ -1,0 +1,12 @@
+<section class="section directory">
+	<div class="section-title">
+		<h2>Directorio de la comunidad</h2>
+	</div>
+	<div class="section-content">
+		{{ range first 100 (where .Data.Pages "Type" "=" "directorio")}}
+			<div class="post-thumbnail">
+				<a href="{{ .Permalink }}" title="{{ .Params.skills }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Params.nickname }}"></a>
+			</div>
+		{{ end }}
+	</div>
+</section>

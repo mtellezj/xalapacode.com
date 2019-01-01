@@ -15,8 +15,17 @@ html {
   vertical-align: baseline;
 }
 
+/* Default Rules for margin and paddings */
+body {
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
+  color: #444;
+}
+
 h1 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h2 {
@@ -41,6 +50,11 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0.15em 0;
+  font-family: "Playfair Display", serif;
+}
+
+h1.xalapacode {
+  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
 }
 
 ul {
@@ -48,14 +62,39 @@ ul {
 }
 
 a {
-  color: #0592FD;
+  color: #2ba3bf;
 }
 
-body {
-  font-size: 15px;
-  line-height: 1.6;
-  font-family: "Lato", "Helvetica", "Arial", sans-serif;
-  color: #333;
+p, a, li {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1em;
+  margin: 2em auto;
+  text-decoration: none;
+  border-radius: 3px;
+  width: 10em;
+  height: 3.6em;
+}
+.btn-main {
+  background-color: #164f75;
+  color: #fff;
+}
+.btn-main:hover {
+  background-color: #2ba3bf;
+}
+.btn-secondary {
+  background-color: #292F51;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background-color: #fff;
+  border: 1px solid #292F51;
+  color: #292F51;
 }
 
 img {
@@ -87,10 +126,25 @@ img {
 
 .logo img {
   display: block;
-  width: 100px;
+  width: 120px;
+}
+
+.nav .menu {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+.nav .menu a {
+  text-decoration: none;
+  color: #164f75;
+  padding-right: 0.65em;
+  font-size: 1.2rem;
+}
+.nav .menu a:hover {
+  color: #2ba3bf;
 }
 
 .footer {
+  background-color: #292F51;
   padding: 2em;
   text-align: center;
   color: #fff;
@@ -110,11 +164,11 @@ form label, form input, form textarea {
   width: 100%;
 }
 form input, form textarea {
-  border: 0.5px solid #F9AB55;
+  border: 0.5px solid #164f75;
 }
 form input[type=submit] {
   margin: 1em 0;
-  background-color: #F9AB55;
+  background-color: #164f75;
 }
 
 @media screen and (max-width: 768px) {
@@ -126,7 +180,7 @@ form input[type=submit] {
   padding: 2em 0;
 }
 .container .row {
-  width: 94%;
+  width: 84%;
   margin: 0 auto;
 }
 .container .row .col-100,
@@ -144,6 +198,7 @@ form input[type=submit] {
   display: inline-block;
   vertical-align: top;
   margin-left: -4px;
+  padding-left: 4px;
 }
 .container .row .col-100 {
   width: 100%;
@@ -182,13 +237,42 @@ form input[type=submit] {
   width: 10%;
 }
 
-.header .nav .menu {
-  padding-top: 20px;
+@media screen and (max-width: 960px) {
+  .container {
+    padding: 1em 0;
+  }
+  .container .row {
+    width: 96%;
+  }
 }
-.header .nav .menu a {
-  text-decoration: none;
-  color: blue;
-  padding-right: 1em;
+.section .section-title {
+  text-align: center;
+  color: #292F51;
+}
+.section .section-content {
+  padding: 0 0.5em;
+}
+
+.events .events-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #292F51;
+}
+.events .post-thumbnail img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.directory .post-thumbnail {
+  width: 50px;
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.thumbnail {
+  width: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

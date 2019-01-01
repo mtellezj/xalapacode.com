@@ -1,9 +1,10 @@
 +++
 title = "Acerca de"
-description = "Acerca de XalapaCode"
+description = "Acerca de xalapacode"
 +++
 
-Bienvenidos al sitio web oficial de la comunidad XalapaCode.
+Bienvenidos al sitio web oficial de la comunidad xalapacode, aquí encontraras información sobre tus preguntas.
+
 
 # ¿Por qué?
 
@@ -29,7 +30,7 @@ Para una versión en español favor de visitar [Convenio de Contribuidor](https:
 * Difunde la comunidad
 * Programa, diseña, construe o mejora algo
 * Pregunta, siempre pregunta
-* Adopta a un newbie
+* Adopta a un novato
 * Contrata o ayuda a contratar a alguien
 * Patrocina (café y galletas son siempre bienvenidos)
 * Contribuye a este sitio
@@ -40,3 +41,4 @@ Para una versión en español favor de visitar [Convenio de Contribuidor](https:
 [Gitter](https://gitter.im/xalapacode/Lobby)
 [Facebook](https://facebook.com/xalapacode)
 [Github](https://github.com/xalapacode)
+[Meetup](https://www.meetup.com/es-ES/xalapacode/)

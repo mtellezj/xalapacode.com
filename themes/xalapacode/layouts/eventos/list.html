@@ -7,17 +7,23 @@
   {{ partial "header.html" . }}
 
   <main class="main">
-    {{ range .Data.Pages.ByDate.Reverse}}
-			<div class="post-title">
-				<h1>{{ .Title }}</h1>
-			</div>
-			<div class="post-content">
-				{{ .Params.description }}
-			</div>
-			<div class="post-footer">
-				<a href="{{ .Permalink }}">Leer más</a>
-			</div>
-		{{ end }}
+    <div class="container">
+    	<div class="row">
+    		<div class="col-100">
+    			{{ range .Data.Pages.ByDate.Reverse}}
+						<div class="post-title">
+							<h1>{{ .Title }}</h1>
+						</div>
+						<div class="post-content">
+							{{ .Params.description }}
+						</div>
+						<div class="post-footer">
+							<a href="{{ .Permalink }}">Leer más</a>
+						</div>
+					{{ end }}
+    		</div>
+    	</div>
+    </div>
   </main>
 
   {{ partial "footer.html" . }}

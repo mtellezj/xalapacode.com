@@ -1,9 +1,0 @@
-<section class="section events">
-  <div class="container">
-		{{ range first 4 (where .Data.Pages "Type" "=" "eventos")}}
-			<div class="post-thumbnail">
-				<a href="{{ .Permalink }}"><img src="{{ .Params.event_flyer }}" alt="Cartel del evento"></a>
-			</div>
-		{{ end }}
-	</div>
-</section>
