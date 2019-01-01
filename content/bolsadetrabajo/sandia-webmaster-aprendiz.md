@@ -1,6 +1,6 @@
 +++
 title = "Aprendíz webmaster en Sandia"
-draft = false
+draft = true
 date = "2018-12-31T12:00:00-06:00"
 description = "Andamos buscando un webmaster para hacer sitios web"
 +++
