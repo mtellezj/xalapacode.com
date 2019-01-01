@@ -245,6 +245,22 @@ form input[type=submit] {
     width: 96%;
   }
 }
+@media screen and (max-width: 767px) {
+  .container .row {
+    width: 90%;
+  }
+  .container .row .col-33 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .container .row .logo {
+    width: 100%;
+  }
+  .header .container .row .logo img {
+    margin: 0 auto;
+  }
+}
 .section .section-title {
   text-align: center;
   color: #292F51;
@@ -273,6 +289,22 @@ form input[type=submit] {
 
 .thumbnail {
   width: 100px;
+}
+
+.homepage .about .buttons {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .homepage .about .buttons {
+    width: 90%;
+  }
+  .homepage .about .buttons .col-50 {
+    display: block;
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
