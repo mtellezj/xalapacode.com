@@ -1,8 +1,9 @@
 ---
-title: "Pull request"
+title: "¿Cómo hacer un pull request?"
 date: 2019-01-02T15:18:14-06:00
 draft: false
-description: "¿Cómo hago un pull request a un repositorio? Guía paso a paso para contribuir."
+description: "Guía paso a paso para contribuir."
+author: "@Categulario"
 ---
 
 ¿Así que quieres contribuir a un proyecto? Básicamente los pasos son los siguientes:
@@ -47,6 +48,8 @@ $ git checkout -b mejoras-de-usabilidad
 
 Trata de que el nombre de la rama indique qué es lo que está cambiando en el código. En el ejemplo anterior `mejoras-de-usabilidad` es el nombre de la rama.
 
+**¡Recuerda no crear commits en la rama máster de un proyecto del que no eres colaborador con permiso de escritura!**
+
 ## Modifica el código fuente
 
 ¡Esta es la mejor parte! Haz tu mejor esfuerzo por escribir código limpio y acorde a las guías de estilo del proyecto. Ver cómo está escrito otro código similar puede ser de ayuda. Haz commits descriptivos de cada cosa que cambies, agregues o elimintes.
@@ -63,13 +66,38 @@ recuerda que la última parte (`mejoras-de-usabilidad`) es el nombre de la rama 
 
 ## Haz pull request
 
-Llegó la hora de la verdad.
+Llegó la hora de la verdad. Visita la página de tu fork (https://github.com/tuusuario/repositorio) y si acabas de hacer push verás una recomendación de hacer pull request. Da click en el botón:
+
+{{<figure src="/img/guias/pull_request/pull-request.png" title="Botón de pull request" >}}
+
+Finalmente llena el formulario con comentarios adicionales acerca de por qué crees que ese cambio es necesario o algún recurso que quieras citar y presiona **Crear pull request**.
+
+{{<figure src="/img/guias/pull_request/create-pull-request.png" title="Enviar el pull request" >}}
+
+A partir de aquí los cambios están en manos de los administradores, solo queda esperar por el **merge** o por comentarios adicionales. Si necesitaras añadir más cambios al mismo pull request solo tienes que hacer más commits en esa rama y hacer push.
 
 ## Actualiza tu proyecto con los últimos cambios
 
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
-Quis repellendus qui voluptates non mollitia veniam rerum. Aut earum doloribus similique architecto. Aspernatur enim earum pariatur accusamus tenetur vitae deserunt maiores. Magni sed soluta itaque tenetur omnis id vel. Aut et quo quod amet. Accusamus cupiditate blanditiis et et soluta dolor.
+Este paso no es necesario para crear un pull-request, pero sí es necesario si vas a contribuir continuamente en un proyecto.
+
+Deberías considerar añadir un nuevo **origen** para tu repositorio con la URL del proyecto original. Navega al proyecto original y copia la URL de clonado. Luego en la terminal (y en la carpeta del proyecto) haz:
+
+```
+$ git remote add upstream https://github.com/xalapacode/xalapacode.com.git
+```
+
+Ahora estás listo para actualizar el proyecto:
+
+```
+$ git checkout master
+$ git pull upstream master
+```
+
+Esto dejará tu rama máster actualizada con los últimos cambios. Ahora solo falta actualizar tus ramas locales si aun existen.
+
+```
+$ git checkout rama-en-progreso
+$ git merge master
+```
+
+¡Listo!
