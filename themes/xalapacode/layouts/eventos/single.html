@@ -4,30 +4,30 @@
 {{ partial "head.html" . }}
 
 <body class="single single-events">
-  {{ partial "header.html" . }}
+	{{ partial "header.html" . }}
 
-  <main class="main">
-    <div class="container">
-    	<div class="row">
-    		<div class="col-100">
-    			<div class="post-title">
-			      <h1>{{ .Title }}</h1>
-			    </div>
-			    <div class="post-thumbnail">
-			    	<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-			    </div>
-			    <div class="post-content">
-			      {{ .Content }}
-			    </div>
-			    <div class="post-footer">
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					<div class="post-title">
+						<h1>{{ .Title }}</h1>
+					</div>
+					<div class="post-thumbnail">
+						<img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+					</div>
+					<div class="post-content">
+						{{ .Content }}
+					</div>
+					<div class="post-footer">
 						<p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
-			    </div>
-    		</div>
-    	</div>
-    </div>
-  </main>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 
-  {{ partial "footer.html" . }}
-  {{ partial "scripts.html" . }}
+	{{ partial "footer.html" . }}
+	{{ partial "scripts.html" . }}
 </body>
 </html>
