@@ -1,2 +1,16 @@
 /* Default Rules for margin and paddings */
+pre {
+  margin: 30px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: #30343f;
+  color: #e4d9ff;
+}
 
+figure {
+  border: 1px solid #30343f;
+  border-radius: 4px;
+  background-color: #fafaff;
+  display: inline-block;
+}
