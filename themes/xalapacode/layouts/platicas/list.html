@@ -4,13 +4,13 @@
 {{ partial "head.html" . }}
 
 <body class="page page-talks">
-  {{ partial "header.html" . }}
+	{{ partial "header.html" . }}
 
-  <main class="main">
-    <div class="container">
-    	<div class="row">
-    		<div class="col-100">
-    			{{ range .Data.Pages.ByDate.Reverse}}
+	<main class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-100">
+					{{ range .Data.Pages.ByDate.Reverse}}
 						<div class="post-title">
 							<h1>{{ .Title }}</h1>
 						</div>
@@ -21,12 +21,12 @@
 							<a href="{{ .Permalink }}">Leer más</a>
 						</div>
 					{{ end }}
-    		</div>
-    	</div>
-    </div>
-  </main>
+				</div>
+			</div>
+		</div>
+	</main>
 
-  {{ partial "footer.html" . }}
-  {{ partial "scripts.html" . }}
+	{{ partial "footer.html" . }}
+	{{ partial "scripts.html" . }}
 </body>
 </html>

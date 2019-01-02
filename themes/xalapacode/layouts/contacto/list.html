@@ -5,29 +5,29 @@
 {{ partial "head.html" . }}
 
 <body class="page page-contact">
-  {{ partial "header.html" . }}
+	{{ partial "header.html" . }}
 
-  <main class="main">
-    <form action="">
-    	<fieldset>
-    		<label for="name">Nombre</label>
-    		<input type="text" name="name">
-    	</fieldset>
-    	<fieldset>
-    		<label for="email">Email</label>
-    		<input type="email" name="email">
-    	</fieldset>
-    	<fieldset>
-    		<label for="message">Mensaje o asunto:</label>
-    		<textarea name="message" cols="30" rows="10"></textarea>
-    	</fieldset>
-    	<fieldset>
-    		<input type="submit" value="Enviar">
-    	</fieldset>
-    </form>
-  </main>
+	<main class="main">
+		<form action="">
+			<fieldset>
+				<label for="name">Nombre</label>
+				<input type="text" name="name">
+			</fieldset>
+			<fieldset>
+				<label for="email">Email</label>
+				<input type="email" name="email">
+			</fieldset>
+			<fieldset>
+				<label for="message">Mensaje o asunto:</label>
+				<textarea name="message" cols="30" rows="10"></textarea>
+			</fieldset>
+			<fieldset>
+				<input type="submit" value="Enviar">
+			</fieldset>
+		</form>
+	</main>
 
-  {{ partial "footer.html" . }}
-  {{ partial "scripts.html" . }}
+	{{ partial "footer.html" . }}
+	{{ partial "scripts.html" . }}
 </body>
 </html>
