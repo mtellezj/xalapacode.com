@@ -1,36 +1,36 @@
 .section {
-	.section-title {
-		text-align: center;
-		color: $purple;
-	}
-	.section-content {
-		padding: 0 .5em;
-	}
+  .section-title {
+    text-align: center;
+    color: $purple;
+  }
+  .section-content {
+    padding: 0 .5em;
+  }
 }
 
 
 .events {
-	.events-title {
-		text-align: center;
-		text-transform: uppercase;
-		color: $purple;
-	}
-	.post-thumbnail {
-		img {
-			width: 500px;
-			display: block;
-			margin: 0 auto;
-		}
-	}
+  .events-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: $purple;
+  }
+  .post-thumbnail {
+    img {
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
 
 .directory {
-	.post-thumbnail {
-		width: 50px;
-		display: inline-block;
-		margin-right: 1em;
-		margin-bottom: 1em;
-	}
+  .post-thumbnail {
+    width: 50px;
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
 }
 
 .blog {

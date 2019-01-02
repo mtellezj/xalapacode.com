@@ -1,10 +1,10 @@
 <section class="section events">
-	<h2 class="events-title">Proximos eventos</h2>
-	<div class="container">
-		{{ range first 1 (where .Data.Pages "Type" "=" "eventos")}}
-			<div class="post-thumbnail">
-				<a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail }}" alt="Cartel del evento"></a>
-			</div>
-		{{ end }}
-	</div>
+  <h2 class="events-title">Proximos eventos</h2>
+  <div class="container">
+    {{ range first 1 (where .Data.Pages "Type" "=" "eventos")}}
+      <div class="post-thumbnail">
+        <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail }}" alt="Cartel del evento"></a>
+      </div>
+    {{ end }}
+  </div>
 </section>

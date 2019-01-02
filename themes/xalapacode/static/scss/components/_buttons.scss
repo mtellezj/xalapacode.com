@@ -1,29 +1,29 @@
 .btn {
-	display: block;
-	font-size: 1rem;
-	text-align: center;
-	padding: 1em;
-	margin: 2em auto;
-	text-decoration: none;
-	border-radius: 3px;
-	width: 10em;
-	height: 3.6em;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1em;
+  margin: 2em auto;
+  text-decoration: none;
+  border-radius: 3px;
+  width: 10em;
+  height: 3.6em;
 
-	&-main {
-		background-color: $blue;
-		color: #fff;
-		&:hover {
-			background-color: $sky;
-		}
-	}
+  &-main {
+    background-color: $blue;
+    color: #fff;
+    &:hover {
+      background-color: $sky;
+    }
+  }
 
-	&-secondary {
-		background-color: $purple;
-		color: #fff;
-		&:hover {
-			background-color: #fff;
-			border: 1px solid $purple;
-			color: $purple;
-		}
-	}
+  &-secondary {
+    background-color: $purple;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      border: 1px solid $purple;
+      color: $purple;
+    }
+  }
 }

@@ -1,18 +1,18 @@
 <section class="section offer">
-	<div class="container">
-		<div class="section-title">
-			<h1>Ofertas de trabajo</h1>
-		</div>
-		{{ range first 4 (where .Data.Pages "Type" "=" "ofertas")}}
-			<div class="post-title">
-				<h1>{{ .Title }}</h1>
-			</div>
-			<div class="post-content">
-				{{ .Params.description }}
-			</div>
-			<div class="post-footer">
-				<a href="{{ .Permalink }}">Leer más</a>
-			</div>
-		{{ end }}
-	</div>
+  <div class="container">
+    <div class="section-title">
+      <h1>Ofertas de trabajo</h1>
+    </div>
+    {{ range first 4 (where .Data.Pages "Type" "=" "ofertas")}}
+      <div class="post-title">
+        <h1>{{ .Title }}</h1>
+      </div>
+      <div class="post-content">
+        {{ .Params.description }}
+      </div>
+      <div class="post-footer">
+        <a href="{{ .Permalink }}">Leer más</a>
+      </div>
+    {{ end }}
+  </div>
 </section>
