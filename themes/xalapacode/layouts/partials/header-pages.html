@@ -1,17 +1,17 @@
 <!-- This partial should be used as a header for alternative pages -->
 <header class="header">
-	<div class="container">
-		<div class="row">
-			<div class="logo col-10">
-				<img src="{{ .Site.BaseURL }}img/logo.png" alt="Logotipo xalapacode">
-			</div>
-			<nav class="nav col-90">
-				<div class="menu">
-					{{ range .Site.Menus.main }}
-						<a href="{{ .URL }}">{{ .Name }}</a>
-					{{ end }}
-				</div>
-			</nav>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="logo col-10">
+        <img src="{{ .Site.BaseURL }}img/logo.png" alt="Logotipo xalapacode">
+      </div>
+      <nav class="nav col-90">
+        <div class="menu">
+          {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
+      </nav>
+    </div>
+  </div>
 </header>

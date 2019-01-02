@@ -1,23 +1,23 @@
 .homepage {
-	.about {
-		.buttons {
-			width: 50%;
-			display: block;
-			margin: 0 auto;
-		}
-	}
+  .about {
+    .buttons {
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
-	.homepage {
-		.about {
-			.buttons {
-				width: 90%;
-				.col-50 {
-					display: block;
-					width: 90%;
-				}
-			}
-		}
-	}
+  .homepage {
+    .about {
+      .buttons {
+        width: 90%;
+        .col-50 {
+          display: block;
+          width: 90%;
+        }
+      }
+    }
+  }
 }
