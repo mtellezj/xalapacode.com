@@ -1,3 +1,23 @@
+.page-events {
+  .post-topics {
+    .topic {
+      display: inline-block;
+      font-family: monospace;
+      font-weight: bold;
+      color: $sky;
+
+      &:after {
+        content: '/>';
+        color: $blue;
+      }
+      &:before {
+        content: '<';
+        color: $blue;
+      }
+    }
+  }
+}
+
 .page-event {
 
 }
