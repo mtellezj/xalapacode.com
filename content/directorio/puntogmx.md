@@ -7,7 +7,7 @@ thumbnail = "/img/directorio/puntogmx.jpg"
 draft = false
 date = "2018-12-31T12:00:00-06:00"
 disponibility = "Siempre"
-rol = "Any"
+rol = "Admin"
 website = "https://www.quieroaprender.mx"
 author = "Gerardo"
 +++
