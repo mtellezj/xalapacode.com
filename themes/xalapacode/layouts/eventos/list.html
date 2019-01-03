@@ -10,12 +10,20 @@
     <div class="container">
       <div class="row">
         <div class="col-100">
-          {{ range .Data.Pages.ByDate.Reverse}}
+          {{ range (.Data.Pages.ByParam "event_date") }}
             <div class="post-title">
               <h1>{{ .Title }}</h1>
             </div>
             <div class="post-content">
-              {{ .Params.description }}
+              <h3>{{ .Params.description }}</h3>
+            </div>
+            <div class="post-place">
+              {{ .Params.event_place }}
+            </div>
+            <div class="post-topics">
+              {{ range .Params.topics }}
+                <div class="topic">{{ . }}</div>
+              {{ end }}
             </div>
             <div class="post-footer">
               <a href="{{ .Permalink }}">Leer más</a>

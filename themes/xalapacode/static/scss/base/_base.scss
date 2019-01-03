@@ -4,13 +4,13 @@ pre {
   padding: 10px;
   font-size: 16px;
   font-family: monospace;
-  background-color: #30343f;
-  color: #e4d9ff;
+  background-color: $gray;
+  color: $sky;
 }
 
 figure {
-  border: 1px solid #30343f;
+  border: 1px solid $gray;
   border-radius: 4px;
-  background-color: #fafaff;
+  background-color: $almost-white;
   display: inline-block;
 }
