@@ -75,7 +75,6 @@ name = "facebook"
 url = "https://facebook.com/xalapacode"
 weight = 3
 
-
 [[ menu.social ]]
 name = "meetup"
 url = "https://www.meetup.com/es-ES/XalapaCode/"
