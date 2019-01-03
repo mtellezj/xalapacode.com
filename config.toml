@@ -55,10 +55,10 @@ name = "Blog"
 url = "/blog"
 weight = 8
 
-# [[ menu.main ]]
-# name = "Contacto"
-# url = "/contacto"
-# weight = 8
+[[ menu.main ]]
+name = "Guías"
+url = "/guias"
+weight = 8
 
 [[ menu.social ]]
 name = "twitter"
