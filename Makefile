@@ -2,7 +2,7 @@
 
 STATIC_DIR = themes/xalapacode/static/
 
-all: site css
+all: css site
 
 site:
 	hugo
