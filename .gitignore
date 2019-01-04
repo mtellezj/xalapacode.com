@@ -15,7 +15,5 @@ vendor/*/
 *.bench
 coverage*.out
 
-themes/xalapacode/static/css/
-
 GoBuilds
 dist
