@@ -8,23 +8,29 @@
   {{ partial "header.html" . }}
 
   <main class="main">
-    <form action="">
-      <fieldset>
-        <label for="name">Nombre</label>
-        <input type="text" name="name">
-      </fieldset>
-      <fieldset>
-        <label for="email">Email</label>
-        <input type="email" name="email">
-      </fieldset>
-      <fieldset>
-        <label for="message">Mensaje o asunto:</label>
-        <textarea name="message" cols="30" rows="10"></textarea>
-      </fieldset>
-      <fieldset>
-        <input type="submit" value="Enviar">
-      </fieldset>
-    </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-100">
+          <form action="">
+            <fieldset>
+              <label for="name">Nombre</label>
+              <input type="text" name="name">
+            </fieldset>
+            <fieldset>
+              <label for="email">Email</label>
+              <input type="email" name="email">
+            </fieldset>
+            <fieldset>
+              <label for="message">Mensaje o asunto:</label>
+              <textarea name="message" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+              <input type="submit" value="Enviar">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
   </main>
 
   {{ partial "footer.html" . }}
