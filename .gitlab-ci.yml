@@ -1,8 +1,22 @@
 stages:
-  - build
+  - build-sass
+  - build-hugo
 
-build:
-  stage: build
+sass:
+  stage: build-sass
+  image: node
+  script:
+  - npm install sass
+  - make css
+  artifacts:
+    paths:
+      - themes/xalapacode/static/css/
+
+hugo:
+  stage: build-hugo
   image: monachus/hugo
   script:
-  - hugo
+  - make site
+  artifacts:
+    paths:
+      - public/
