@@ -6,7 +6,7 @@ sass:
   stage: build-sass
   image: node
   script:
-  - npm install sass
+  - npm install -g sass
   - make css
   artifacts:
     paths:
