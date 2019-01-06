@@ -16,7 +16,7 @@ hugo:
   stage: build-hugo
   image: monachus/hugo
   script:
-  - make site
+  - hugo
   artifacts:
     paths:
       - public/
