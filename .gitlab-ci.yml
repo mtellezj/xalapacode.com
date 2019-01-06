@@ -1,6 +1,7 @@
 stages:
   - build-sass
   - build-hugo
+  - deploy
 
 sass:
   stage: build-sass
@@ -11,6 +12,8 @@ sass:
   artifacts:
     paths:
       - themes/xalapacode/static/css/
+  only:
+  - master
 
 hugo:
   stage: build-hugo
@@ -20,3 +23,18 @@ hugo:
   artifacts:
     paths:
       - public/
+  only:
+  - master
+
+deploy:
+  stage: deploy
+  image: kroniak/ssh-client
+  script:
+  - mkdir -p ~/.ssh
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$PRIVATE_KEY")
+  - scp -r public/. $SERVER_USER@$SERVER_HOST:$APP_PATH
+  only:
+  - master
+  environment: production
