@@ -13,11 +13,16 @@
           <div class="post-title">
             <h1>{{ .Title }}</h1>
           </div>
-          <div class="post-thumbnail">
-            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-          </div>
+          {{ if .Params.thumbnail }}
+            <div class="post-thumbnail">
+              <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+            </div>
+          {{ end }}
           <div class="post-content">
             {{ .Content }}
+          </div>
+          <div class="post-info">
+            <p>Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}</p>
           </div>
           <div class="post-footer">
             <p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
