@@ -16,7 +16,7 @@
 
 ### De contenido
 
-Actualmente el sitio esta dividido en 6 secciones (eventos, platicas, bolsa de trabajo, patrocinadores, directorio y blog) que pueden ser editadas por los miembros de la comunidad y 1 pagina (acerca de) que solo puede ser editada por los administradores.
+Actualmente el sitio esta dividido en 6 secciones principales (eventos, platicas, bolsa de trabajo, patrocinadores, directorio y blog) que pueden ser editadas por los miembros de la comunidad y 1 pagina (acerca de) que solo puede ser editada por los administradores.
 
 Si desean añadir nuevo contenido o corregir el existente este se encuentra en la carpeta `content` que esta en el directorio raiz.
 
@@ -28,7 +28,7 @@ Todas las imagenes deben ir en la carpeta `static/img/` en la respectiva carpeta
 
 ### De estilos
 
-Las carpetas de estilos y scrips se encuentran en `themes/xalapacode/static`
+Las carpetas de estilos y scrips se encuentran en `themes/xalapacode/static`, te recomendamos instalar sass ya sea con Ruby o Node de forma global, de esa forma podras utilizar el comando `make` para generar el sitio o el comando `sass scss/main.scss:css/main.css` dentro de la carpeta `themes/xalapacode/static` y de esta forma podrás visualizar los cambios de estilos.
 
 El sitio usa Sass con extensión `.scss` y esta organizado de la siguiente manera:
 
@@ -42,7 +42,7 @@ El sitio usa Sass con extensión `.scss` y esta organizado de la siguiente maner
 
 Actualmente solo se estan utilizando las primeras 5 carpetas para los estilos. Si desea corregir un bug en estilos hagalo sobre estas carpetas.
 
-### Sobre paginas personalizadas para miembros del directorio
+#### Sobre paginas personalizadas para miembros del directorio
 Cada miembro en el directorio puede personalizar los estilos de su pagina de perfil creando un nuevo archivo scss cuyo nombre sera el nickname del miembro en la carpeta `pages` y donde la clase contenedora sea su nickname.
 
 
