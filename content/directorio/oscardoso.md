@@ -7,7 +7,6 @@ thumbnail = "/img/directorio/oscardoso.png"
 draft = false
 date = "2019-01-14:18:00-05:00"
 disponibility = "24/7"
-status = ""
 rol = "miembro"
 website = "https://www.behance.net/oscardoso89"
 author = "jailandrade"

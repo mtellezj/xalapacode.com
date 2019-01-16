@@ -7,7 +7,6 @@ thumbnail = "/img/directorio/brenda.jpg"
 draft = false
 date = "2019-01-14T16:00:18-06:00"
 disponibility = "Solo Remoto"
-status = "Ocupada"
 rol = "admin"
 website = "https://gitlab.com/pentcode/"
 author = "Brenda"

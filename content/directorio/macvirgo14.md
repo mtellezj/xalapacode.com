@@ -7,7 +7,6 @@ thumbnail = "/img/directorio/macvirgo14.jpeg"
 draft = false
 date = "2019-01-14T18:20:00-05:00"
 disponibility = "Solo Remoto"
-status = "Ocupado"
 rol = "admin"
 website = ""
 author = "macvirgo14"

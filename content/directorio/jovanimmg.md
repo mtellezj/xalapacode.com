@@ -7,7 +7,6 @@ thumbnail = "/img/directorio/jovanimmg.jpeg"
 draft = false
 date = "2019-01-02T12:00:00-06:00"
 disponibility = "Actualmente me encuentro laborando."
-status = "Laborando"
 rol = "miembro"
 +++
 
