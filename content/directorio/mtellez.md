@@ -6,7 +6,7 @@ skills = "Linux, Python, MySql, Postgresql, PHP, docker."
 thumbnail = "/img/directorio/mtellez.jpg"
 date = "2019-01-15T23:50:00-06:00"
 disponibility = "Disponible para proyectos freelance remotos e impartición de cursos de programación."
-status = "Buscando trabajo, Contratado feliz, Contrato expira pronto"
+status = "Disponible, pero tal vez tarde en responder."
 rol = "miembro"
 author = "mtellez"
 +++
