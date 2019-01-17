@@ -1,4 +1,4 @@
 +++
-title = "Platicas"
-description = "Platicas que se han realizado por miembros de xalapacode"
+title = "Pláticas"
+description = "Pláticas que se han realizado por miembros de xalapacode"
 +++

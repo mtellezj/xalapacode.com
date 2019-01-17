@@ -12,11 +12,11 @@ Por que creemos que compartir, colaborar y convivir es una manera de mejorar com
 
 # ¿Qué es?
 
-Una comunidad de programadores, diseñadores y entusiastas de la tecnologia que se reunen periodicamente en la ciudad de Xalapa, Veracruz.
+Una comunidad de programadores, diseñadores y entusiastas de la tecnología que se reunen periódicamente en la ciudad de Xalapa, Veracruz.
 
 # ¿Comó?
 
-Reuniendonos periodicamente para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias entre otras actividades.
+Reuniéndonos periódicamente para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias entre otras actividades.
 
 # Código de Conducta
 
@@ -28,7 +28,7 @@ Para una versión en español favor de visitar [Convenio de Contribuidor](https:
 
 * Da una charla
 * Difunde la comunidad
-* Programa, diseña, construe o mejora algo
+* Programa, diseña, construye o mejora algo
 * Pregunta, siempre pregunta
 * Adopta a un novato
 * Contrata o ayuda a contratar a alguien
