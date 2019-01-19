@@ -6,9 +6,9 @@ thumbnail = ""
 description = "xalapacode tiene nuevo sitio web, rediseñado en base al contenido."
 +++
 
-Nuevo año, nuevo sitio web. Este es un proyecto que teniamos pendiente desde hace mucho tiempo y por fin esta en línea.
+Nuevo año, nuevo sitio web. Este es un proyecto que teníamos pendiente desde hace mucho tiempo y por fin esta en línea.
 
-El nuevo sitio web va orientado a promocionar el contenido que generamos en la comunidad y esta dividido en 6 secciones principales
+El nuevo sitio web va orientado a promocionar el contenido que generamos en la comunidad y esta dividido en 6 secciones principales.
 
 ## Eventos
 
@@ -32,4 +32,4 @@ Las actividades programadas que realizamos periódicamente, destaca el meetup qu
 
 ## Blog
 
-Recomendamos a todos nuestros xalapacoders tener un sitio web o blog actualizado, pero si desea compartir algo aquí es buen lugar para ir practicando.
+Recomendamos a todos nuestros xalapacoders tener un sitio web o blog actualizado, pero si desea compartir algo, aquí es buen lugar para ir practicando.
