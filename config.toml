@@ -79,3 +79,8 @@ weight = 3
 name = "meetup"
 url = "https://www.meetup.com/es-ES/XalapaCode/"
 weight = 4
+
+[[ menu.social ]]
+name = "telegram"
+url = "https://t.me/joinchat/IfCdQQ9yxbHW7Bgvap24Sw"
+weight = 5
