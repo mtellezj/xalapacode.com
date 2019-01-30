@@ -4,6 +4,8 @@ date = "2018-12-30T17:00:00-06:00"
 draft = false
 thumbnail = ""
 description = "xalapacode tiene nuevo sitio web, rediseñado en base al contenido."
+author = "Jail"
+author_uri = "/directorio/jail"
 +++
 
 Nuevo año, nuevo sitio web. Este es un proyecto que teníamos pendiente desde hace mucho tiempo y por fin esta en línea.
