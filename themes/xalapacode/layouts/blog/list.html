@@ -13,6 +13,7 @@
           {{ range .Data.Pages.ByPublishDate.Reverse }}
             <div class="post-title">
               <h1>{{ .Title }}</h1>
+              <p>Autor: <a href="{{ .Params.author_uri }}">{{ .Params.author }}</a></p>
             </div>
             <div class="post-content">
               {{ .Params.description }}
