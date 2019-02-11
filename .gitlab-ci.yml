@@ -34,7 +34,7 @@ deploy:
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
   - eval $(ssh-agent -s)
   - ssh-add <(echo "$PRIVATE_KEY")
-  - scp -r public/. $SERVER_USER@$SERVER_HOST:$APP_PATH
+  - scp -r public/* $SERVER_USER@$SERVER_HOST:$APP_PATH
   only:
   - master
   environment: production
