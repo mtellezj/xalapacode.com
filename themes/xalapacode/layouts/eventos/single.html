@@ -15,7 +15,9 @@
           </div>
           {{ if .Params.thumbnail }}
             <div class="post-thumbnail">
-              <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+              <a href="{{ .Params.thumbnail }}">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+              </a>
             </div>
           {{ end }}
           <div class="post-content">
