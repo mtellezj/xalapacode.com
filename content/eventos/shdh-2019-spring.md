@@ -16,6 +16,10 @@ Los SHDH de xalapacode se realizaran en 2019 en fechas cercanas al cambio de est
 ## Sobre la sede
 El Laboratorio de Redes de la Facultad de Estadistica e Informatica de la UV ha sido sede de la mayoria de nuestros eventos y esta vez vuelve a serlo.
 
+# Link de Registro
+
+Te puedes registrar [aqui](https://docs.google.com/spreadsheets/d/19wpYSMRmjQ0pRwC_McbDNSyJ97sqFtcU3c0Iopm0XoU/edit?usp=sharing)
+
 ## Sobre el evento
 En un Super Happy Dev House los asistentes se dedican durante 12 horas a desarrollar algún proyecto o varios, aprender alguno nuevo durante el evento, y en las últimas horas se invita a los asistentes a pasar a platicar a los asistentes que es lo que lograron durante el SHDH.
 
