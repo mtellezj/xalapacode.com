@@ -2,20 +2,20 @@
 name = "Ivan Leon"
 nickname = "ivanleoncz"
 description = "Software Developer using Python as main programming language"
-skills = "Python, Linux, Backend Development, Flask, Data Science, Distributed Systems "
+skills = "Python, Flask, Django, JavaScript, Node.js, SQL, NoSQL, REST, Distributed Systems"
 thumbnail = "/img/directorio/ivanleoncz.jpg"
 draft = false
-date = "2019-01-21T11:10:00-06:00"
-disponibility = "Xalapa, Puebla, Mexico City or Remote"
+date = "2019-03-23T12:09:00-06:00"
+disponibility = "Remote, Xalapa, Puebla or Mexico City"
 rol = "miembro"
-website = "https://ivanleoncz.blogspot.com"
+website = "https://stackoverflow.com/users/5780109/ivanleoncz?tab=profile"
 author = "ivanleoncz"
 +++
 
-Brazilian/Gaúcho from Rio Grande do Sul, tchê! (with great pride <3), living in Mexico since 2015; former GNU/Linux SysAdmin; Software Developer since 2014, in love with Backend Development and Data Science; also passionate for challenges, puzzles, numbers, statistics, Python, GNU/Linux, Open Source, business, branding, hiking, chimarrão, books, movies, Technology, History, Politics, Philosophy, Video Games and debates involving all these topics.
+Gaúcho from Guaíba <3, Rio Grande do Sul (Brasil), living in Mexico since 2015, in love with Backend Development since 2014 (Python <3).
 
-For further information:
+For Open Sources, Projects, Ideas, Tutoring, reach me out: ivanleoncz@protonmail.com
 
-- https://twitter.com/ivanleoncz
-- https://stackoverflow.com/users/5780109/ivanleoncz?tab=profile
-- https://www.linkedin.com/in/ivanleoncz/ 
+"You! You the people, have the power! The power to create machines! The power to create happiness!"
+
+- Charlie Chaplin, at The Great Dictator (1940)
