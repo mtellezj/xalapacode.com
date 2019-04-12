@@ -93,7 +93,16 @@ nuesta consulta no solo será más compacta, sino también más eficiente,
 por que la tabla solo se recorre una sola vez.
 
 ### Window Functions ###
-A grandes rasgos, estas funciones trabajan sobre un conjuto de filas como lo hace `GROUP BY`, pero con la diferencia que el resultado no se agrupa en un solo renglón.
+
+A grandes rasgos, estas funciones trabajan sobre un conjuto de filas
+como lo hace `GROUP BY`, pero con la diferencia que el resultado no se
+agrupa en un solo renglón. Un caso de uso real es el siguiente:
+
+> Sacar los totales de clientes por tienda y mostrar la suma y el
+> promedio de los clientes para cada zona y región, mostrando estos
+> dos últimos datos en una columna a la derecha y únicamente en los
+> renglones de la última zona/región. Las demás celdas de esta columna
+> deberán ir en blanco.
 
 ### Cláusula WITH ###
 
