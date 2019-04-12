@@ -79,8 +79,8 @@ Banda magnética|2019-01-02|4
 ### Sets, Rollup y Cube ###
 
 Todas estas funciones agrupan información de una forma u otra, lo que
-permite realizar operaciones que con un simple `GROUP BY` no es
-posible.
+permite realizar operaciones que con un simple `GROUP BY` es casi
+imposible.
 
 #### Grouping sets ####
 
