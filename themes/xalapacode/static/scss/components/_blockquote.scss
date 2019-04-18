@@ -1,0 +1,36 @@
+blockquote {
+  font-size: 1.5rem;
+  width:50%;
+  margin:30px auto 50px;
+  font-style:italic;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  padding:1.2em 30px 1.2em 50px;
+  border-left:8px solid $blue;
+  line-height:1.6;
+  position: relative;
+  background:$almost-white;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:$blue;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote em{
+  display:block;
+  color:#222;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+  text-align: right;
+}

@@ -1,1 +1,21 @@
-.hero {}
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 300px;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 50px;
+  .hero-title,
+  .hero-content {
+    display: block;
+    max-width: 600px;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.6em;
+  }
+  .hero-title {
+    font-size: 36px;
+    font-weight: bolder;
+  }
+}
