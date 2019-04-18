@@ -1,0 +1,18 @@
+table.table-container {
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+
+  th {
+    border-bottom: 4px solid $blue;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td:nth-child(even),
+  th:nth-child(even) {
+    background-color: rgba(34,122,181,0.5)
+  }
+}
