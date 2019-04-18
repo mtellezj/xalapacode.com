@@ -10,27 +10,30 @@ blockquote {
   line-height:1.6;
   position: relative;
   background:$almost-white;
+
+
+  &::before{
+    font-family:Arial;
+    content: "\201C";
+    color:$blue;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+
+  &::after{
+    content: '';
+  }
+
+  em{
+    display:block;
+    color:#222;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+    text-align: right;
+  }
 }
 
-blockquote::before{
-  font-family:Arial;
-  content: "\201C";
-  color:$blue;
-  font-size:4em;
-  position: absolute;
-  left: 10px;
-  top:-10px;
-}
 
-blockquote::after{
-  content: '';
-}
-
-blockquote em{
-  display:block;
-  color:#222;
-  font-style: normal;
-  font-weight: bold;
-  margin-top:1em;
-  text-align: right;
-}
