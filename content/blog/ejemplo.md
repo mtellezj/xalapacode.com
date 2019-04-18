@@ -5,6 +5,7 @@ draft = true
 thumbnail = "/img/blog/imagen.png"
 description = "¡Un ejemplo de post para el blog!"
 markup = "mmark"
+author = "Jail"
 +++
 
 # Ejemplo Tabla
