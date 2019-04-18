@@ -7,6 +7,7 @@ description = "Regresa el SHDH de xalapacode"
 thumbnail = "/img/eventos/shdh-2019-spring.jpg"
 author = "jail"
 topics = []
+turnout = 14
 +++
 
 Un Super Happy Dev House es un evento de hackers y makers para trabajar en sus proyectos personales durante 12 horas (nosotros lo intentamos) mientras convivimos y al final presentamos lo que hicimos en ese lapso. Es un buen espacio para resolver dudas, compartir inquietudes y obtener retroalimentacion de proyectos de todo tipo y forma.
