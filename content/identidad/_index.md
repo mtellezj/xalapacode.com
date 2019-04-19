@@ -1,15 +1,27 @@
 +++
 title = "Identidad de xalapacode"
 image = "/img/xalapacode/identidad.png"
-description = "Para los que quieran ocupar la imagen de xalapacode lo pueden hacer siguiendo estos lineamientos."
+description = "Para los que quieran ocupar la imagen de xalapacode lo pueden hacer siguiendo estos lineamientos. Abajo vienen los logotipos a buena resolución."
 downloads = "Descarga de logotipos, imagotipos y fuente"
 source = "/img/xalapacode/logo.ai"
 +++
 
-![Logo][/img/xalapacode/logo.png]
-![Logo blanco][/img/xalapacode/logo-white.png]
-![Isotipo 1][/img/xalapacode/isotipo1.png]
-![Isotipo 2][/img/xalapacode/isotipo2.png]
+
+## Logotipo
+
+{{< figure src="/img/xalapacode/logo.png" title="Logotyp" >}}
+
+## Logotipo blanco
+
+{{< figure src="/img/xalapacode/logo-white.png" title="White logotype" >}}
+
+## Isotipo sin espacios en blanco
+
+{{< figure src="/img/xalapacode/isotipo1.png" title="Isotipo sin espacio en blanco" >}}
+
+## Isotipo con espacio
+
+{{< figure src="/img/xalapacode/isotipo2.png" title="Isotipo con espacio" >}}
 
 
 
