@@ -1,16 +1,12 @@
 <header class="header">
-  <div class="container">
-    <div class="row">
-      <div class="logo">
-        <img id="logo" src="{{ .Site.BaseURL }}img/logo.png" alt="Logotipo xalapacode" oncontextmenu="window.location.href = '/identidad'">
-      </div>
-      <nav class="nav">
-        <div class="menu">
-          {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          {{ end }}
-        </div>
-      </nav>
-    </div>
+  <div class="logo">
+    <img src="{{ .Site.BaseURL }}img/logo.png" alt="Logotipo xalapacode" oncontextmenu="window.location.href = '/identidad'">
   </div>
+  <nav class="nav">
+    <div class="menu">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </nav>
 </header>
