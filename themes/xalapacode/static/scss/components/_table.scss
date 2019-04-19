@@ -1,0 +1,39 @@
+table.table-container {
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+
+
+  td, th {
+    padding: 0.75em;
+  }
+
+  th {
+    border-bottom: 4px solid rgb(220, 220, 220);
+  }
+
+  &.blue {
+    th {
+      border-bottom: 4px solid $blue;
+    }
+
+    td:nth-child(even),
+    th:nth-child(even) {
+      background-color: rgba(34,122,181,0.4);
+    }
+  }
+
+  &.red {
+    th {
+      border-bottom: 4px solid $red;
+    }
+
+    td:nth-child(even),
+    th:nth-child(even) {
+      background-color: rgba(234,123,115,0.4);
+    }
+  }
+
+}
+
+
