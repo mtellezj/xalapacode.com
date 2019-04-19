@@ -13,7 +13,7 @@ author = "Jail"
 
 <!-- Para que una tabla tenga formato debes poner el markup = "mmark" y el {.table-container} -->
 
-{.table-container}
+{.table-container .red}
 | Columna 1 | Columna 2 | Columna 3|
 | --------- | --------- | ---------|
 | Dato a    | Dato b    | Dato c   |
