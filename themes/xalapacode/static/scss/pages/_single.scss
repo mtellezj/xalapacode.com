@@ -11,9 +11,22 @@
 }
 
 .single-events {
+
+  .post {
+    width: 86%;
+    margin: 0 auto;
+  }
+
+  .post-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
   .post-thumbnail {
     img {
-      width: 300px;
+      width: 600px;
+      margin: 0 auto 1rem;
+      display: block;
     }
   }
 }
