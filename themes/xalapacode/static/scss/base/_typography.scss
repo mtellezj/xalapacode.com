@@ -6,24 +6,24 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 1.85rem;
+  font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 1.65rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.45rem;
+  font-size: 1.4rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 h6 {
@@ -31,8 +31,8 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.15em 0;
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
 }
 
 h1.xalapacode {

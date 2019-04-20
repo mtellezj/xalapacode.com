@@ -1,0 +1,16 @@
+.post {
+  padding-right: 1.25em;
+
+  .post-title {
+    a {
+      font-size: 1.5rem;
+      color: $purple;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    }
+
+}
