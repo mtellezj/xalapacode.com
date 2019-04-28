@@ -18,6 +18,10 @@ Una comunidad de programadores, diseñadores y entusiastas de la tecnología que
 
 Reuniéndonos periódicamente para hablar sobre lo que hacemos en nuestros trabajos y pasatiempos, impartiendo talleres y conferencias entre otras actividades.
 
+# ¿Donde descargo el logo?
+
+Ve a [Identidad](/identidad) y podrás descargar nuestro logotipo y ver nuesta guia de estilo.
+
 # Código de Conducta
 
 Nos adherimos al Contributor Convenant [Contributor Conventan](https://www.contributor-covenant.org)

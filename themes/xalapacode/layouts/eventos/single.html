@@ -7,29 +7,25 @@
   {{ partial "header.html" . }}
 
   <main class="main">
-    <div class="container">
-      <div class="row">
-        <div class="col-100">
-          <div class="post-title">
-            <h1>{{ .Title }}</h1>
-          </div>
-          {{ if .Params.thumbnail }}
-            <div class="post-thumbnail">
-              <a href="{{ .Params.thumbnail }}">
-                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-              </a>
-            </div>
-          {{ end }}
-          <div class="post-content">
-            {{ .Content }}
-          </div>
-          <div class="post-info">
-            <p>Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}</p>
-          </div>
-          <div class="post-footer">
-            <p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
-          </div>
+    <div class="post">
+      <div class="post-title">
+        <h1>{{ .Title }}</h1>
+      </div>
+      {{ if .Params.thumbnail }}
+        <div class="post-thumbnail">
+          <a href="{{ .Params.thumbnail }}">
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+          </a>
         </div>
+      {{ end }}
+      <div class="post-content">
+        {{ .Content }}
+      </div>
+      <div class="post-info">
+        <p>Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}</p>
+      </div>
+      <div class="post-footer">
+        <p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
       </div>
     </div>
   </main>
