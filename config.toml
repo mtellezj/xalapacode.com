@@ -30,10 +30,6 @@ name = "Eventos"
 url = "/eventos"
 weight = 3
 
-[[ menu.main ]]
-name = "Pláticas"
-url = "/platicas"
-weight = 4
 
 [[ menu.main ]]
 name = "Bolsa de Trabajo"
@@ -75,10 +71,10 @@ name = "facebook"
 url = "https://facebook.com/xalapacode"
 weight = 3
 
-[[ menu.social ]]
-name = "meetup"
-url = "https://www.meetup.com/es-ES/XalapaCode/"
-weight = 4
+# [[ menu.social ]]
+# name = "meetup"
+# url = "https://www.meetup.com/es-ES/XalapaCode/"
+# weight = 4
 
 [[ menu.social ]]
 name = "telegram"
