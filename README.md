@@ -1,16 +1,27 @@
 # sitio web xalapacode.com
 
-
 ## Contribuyendo al sitio web
 
 1. Instala y configura [Hugo](http://gohugo.io/)
-2. Descarga este repo https://github.com/XalapaCode/xalapacode.com/
-3. Crea un nuevo branch desde master a tu local
-4. Haz la contribución
-5. Sube tu branch y crea el PR
-6. Espera por la aprobación y merge de algun administrador
-7. Espera por el despliegue a https://xalapacode.com
+1. Haz fork de este repo https://github.com/XalapaCode/xalapacode.com/
+1. Clona tu fork (`git clone https://github.com/tu/elfork.git`)
+1. Crea una nueva rama desde master (`git checkout -b nombre-de-la-rama`)
+1. Haz la contribución (y commits)
+1. Sube tu branch (`git push -u origin nombre-de-la-rama`) y crea el PR
+1. Espera por la aprobación y merge de algun administrador
+1. Espera por el despliegue a https://xalapacode.com
+1. Actualiza tu rama `master` con los cambios remotos
+  - cambia a la rama master (`git checkout master`)
+  - agrega el repositorio principal a tus remotos (este solo lo necesitas correr una vez por cada repositorio local) `git remote add upstream https://github.com/XalapaCode/xalapacode.com.git`
+  - actualiza tu rama `master` local `git pull upstream master`
+1. borra tu rama, los cambios ya están en `master`
+  - `git branch -d nombre-de-la-rama`
 
+## Construyendo el proyecto
+
+`make`
+
+Esto construye el sitio y los estilos. Más abajo se detalla al respecto.
 
 ## Formas de contribución
 
@@ -40,11 +51,11 @@ El sitio usa Sass con extensión `.scss` y esta organizado de la siguiente maner
 * Themes
 * Vendors
 
-Actualmente solo se estan utilizando las primeras 5 carpetas para los estilos. Si desea corregir un bug en estilos hagalo sobre estas carpetas.
+Actualmente solo se estan utilizando las primeras 5 carpetas para los estilos. Si desea corregir un bug en estilos hágalo sobre estas carpetas.
 
 #### Sobre paginas personalizadas para miembros del directorio
-Cada miembro en el directorio puede personalizar los estilos de su pagina de perfil creando un nuevo archivo scss cuyo nombre sera el nickname del miembro en la carpeta `pages` y donde la clase contenedora sea su nickname.
 
+Cada miembro en el directorio puede personalizar los estilos de su pagina de perfil creando un nuevo archivo scss cuyo nombre sera el nickname del miembro en la carpeta `pages` y donde la clase contenedora sea su nickname.
 
 ## Sobre el sitio
 
