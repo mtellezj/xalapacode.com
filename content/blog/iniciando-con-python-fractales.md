@@ -1,5 +1,5 @@
 +++
-title = "Primeros pasos con python, fractales"
+title = "Recursión y fractales con python"
 date = "2019-04-29T11:00:00-06:00"
 draft = false
 thumbnail = ""
@@ -9,7 +9,7 @@ author_uri = "/directorio/categulario"
 markup = "mmark"
 +++
 
-A todo esto, ¿Qué es la recursión? A continuación analizaremos con algunos ejemplos gráficos el concepto de _recursión_ y cómo puede ayudarnos a resolver algunos problemas.
+¿Recurquién? A continuación analizaremos con algunos ejemplos gráficos el concepto de _recursión_ y cómo puede ayudarnos a resolver algunos problemas.
 
 ## Un problema grande hecho de problemas más pequeños
 
@@ -198,20 +198,105 @@ def hoja(profundidad=0):
     # Queda este hueco pero ¿Cuándo se llamaría una función escrita aquí?
 {{< / highlight >}}
 
-para entender bien este paso vamos a ver unos ejemplos.
+para entender bien este paso vamos a verlo en un ejemplo más pequeño:
 
 {{< highlight python >}}
 def foo():
     print("foo")
 
 def bar():
-    print("bar antes de foo")
+    print("bar")
     foo()
-    print("bar después de foo")
+    print("var")
 
 bar()
 {{< / highlight >}}
 
-## Los peligros de la recursión
+Aquí es más o menos claro entender que este programa imprime `bar`, luego `foo` y luego `var`. Las llamadas recursivas no son nada más extraño que llamadas normales de unas funciones a otras, excepto que la función llamada y la que llama son las mismas. La respuesta a la pregunta _¿Cuándo se ejecuta el código después de una llamada recursiva?_ es simplemente _Cuando la llamada recursiva acabe_.
 
-Describir cómo se ve la memoria de un programa recursivo
+Si lo piensas un poco, esto lo que quiere decir es que _cada que hacemos una llamada recursiva hay que regresar a un punto desde el que podamos iniciar de nuevo_. En nuestro caso, regresar la flecha al inicio de la línea:
+
+{{< highlight python "linenos=table" >}}
+def hoja(profundidad=0):
+    if profundidad > 3:
+        # Establecemos una condición con un valor experimental,
+        return
+
+    # Usamos una variable para no repetir el cálculo de este valor que vamos a
+    # usar más abajo
+    longitud = 100 * (2/3)**profundidad
+
+    forward(longitud)
+    left(60)
+
+    hoja(profundidad+1)
+
+    left(120) # completamos una vuelta de 180 grados
+    forward(longitud) # regresamos lo mismo que avanzamos
+    left(180) # damos media vuelta
+{{< / highlight >}}
+
+Que va a producir el siguiente resultado:
+
+![Rama izquierda recursiva](/img/blog/iniciando-con-python-fractales/regreso_recursivo.png)
+
+¿Qué pasa si quitamos la última línea con el `left(180)`? ¿Por qué es necesaria?
+
+## Cuida tus invariantes, Luke
+
+Una cosa importantísima a considerar al escribir funciones recursivas es que cada vez que se llama a la función en cuestión esto suceda conservando algunas suposiciones necesarias para que la función haga su tarea de forma correcta. A estas suposiciones se les conoce como **invariantes** y en nuestro caso podemos detectar el siguiente:
+
+* Al comenzar a dibujar cada línea (es decir al llamar la función `hoja()`) la flecha debe apuntar hacia donde la línea será dibujada.
+
+Las últimas líneas de una función recursiva deben estar dedicadas a preservar sus propios invariantes. Esta es la razón de ser de `left(180)` en nuestro código.
+
+## La otra mitad
+
+Con esta confianza ganada, podemos tratar de dibujar las ramas del lado derecho de cada hoja del trébol.
+
+{{< highlight python "linenos=table" >}}
+# Abstraemos el límite recursivo en esta constante para entender mejor el
+# código
+MAX_DEPTH = 3
+
+def hoja(profundidad=0):
+    if profundidad > MAX_DEPTH:
+        return
+
+    longitud = 100 * (2/3)**profundidad
+
+    forward(longitud)
+    left(60)
+
+    # Primera llamada recursiva, ramas izquierdas
+    hoja(profundidad+1)
+
+    # Asumimos que la llamada recursiva va a terminar al principio de la línea
+    # recién dibujada
+    right(120)
+
+    # ¡Dos llamadas recursivas en la mimsa función! Ramas derechas
+    hoja(profundidad+1)
+
+    right(120) # completamos una vuelta de 360 grados hacia la derecha
+    forward(longitud) # regresamos lo mismo que avanzamos
+    left(180) # damos media vuelta
+{{< / highlight >}}
+
+Si todo sale bien, debemos tener un dibujo como este:
+
+![Una hoja completa del trébol](/img/blog/iniciando-con-python-fractales/hoja_completa.png)
+
+Genial ¿no? Puedes probar con distintos valores de `MAX_DEPTH` para elegir qué tan fino quieres el fractal. ¿Cómo hacemos el trébol completo? ¿Podrías dibujar el fractal de Sierpinski de la figura siguiente?
+
+![Fractal de sierpinski](/img/blog/iniciando-con-python-fractales/sierpinski.png)
+
+## Conclusiones
+
+La **recursión** es una técnica muy poderosa e interesante que debe ser utilizada con cuidado pues, como seguramente pronto averiguarás, hay que debuguearla más en la cabeza que en el código. Comunmente fallará con errores de intención y no con excepciones del lenguaje de programación que te puedan ayudar.
+
+Al ejecutarla es importante pensar en **problemas más pequeños** y plantear la solución paso por paso. Ir probando el código continuamente ayudará a observar los resultados.
+
+Es importante cuidar los **invariantes** de las funciones recursivas pues nos ayudarán a mantener un código limpio y fácil de entender y mantener.
+
+Diviértete escribiendo funciones recursivas!
