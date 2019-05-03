@@ -21,7 +21,7 @@ Las primeras en empezar fueron **Karen Edith Trujillo Hernández & Fernanda Quet
 
 **Marcela Quiroz Castellanos** con su plática "Inteligencia Artificial, la puerta a las oportunidades" nos dio una extensa introducción al [Centro de Investigación en Inteligencia Artificial](https://www.uv.mx/ciia/) en Xalapa, invitando a los estudiantes para hacer sus estudios de posgrado.
 
-[Fotografía Ximena Cruz "Technovation"](/img/blog/steam.jpg)
+![Fotografía Ximena Cruz "Technovation"](/img/blog/steam.jpg)
 
 "Technovation" se tituló la plática de **Ximena Cruz** quien nos visitó desde el puerto de Veracruz y nos platicó sobre [STEAM](https://www.innobasque.eus/microsite/escuela_innovacion/article/de-que-hablamos-cuando-hablamos-de-steam/) además de comentarnos cómo están enseñando a niñas para que aprendan de tecnología [technovationmx](http://technovationmx.org/regiones).
 
