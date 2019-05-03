@@ -1,6 +1,6 @@
 +++
 title = "El meetup de Abril en Xalapa"
-date = "2019-03-18T14:00:00-06:00"
+date = "2019-05-02T19:00:00-06:00"
 draft = false
 thumbnail = ""
 description = "La reunión XalapaCode en Abril"
