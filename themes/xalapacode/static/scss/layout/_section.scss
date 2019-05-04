@@ -1,4 +1,5 @@
 .section {
+  margin: 5em 0;
   .section-title {
     text-align: center;
     color: $purple;
@@ -10,14 +11,32 @@
 
 
 .events {
+  background-color: #fafaff;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23164f75' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  padding: 4em 1em;
+
   .events-title {
     text-align: center;
     text-transform: uppercase;
     color: $purple;
+    background-color: white;
+    padding: 0.2em;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    border: 3px solid $purple;
+    box-shadow: 0 0 20px 20px #fff;
+    transform: rotate(-4deg);
+    margin-bottom: 1em;
   }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .post-thumbnail {
     img {
-      width: 500px;
+      width: 100%;
       display: block;
       margin: 0 auto;
     }
@@ -26,10 +45,15 @@
 
 .directory {
   .post-thumbnail {
-    width: 50px;
+
     display: inline-block;
     margin-right: 1em;
     margin-bottom: 1em;
+
+    img {
+      max-width: 100px;
+      height: auto;
+    }
   }
 }
 

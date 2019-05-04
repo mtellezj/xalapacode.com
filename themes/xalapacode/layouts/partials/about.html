@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <h1 class="xalapacode">{{ .Title }}</h1>
-      <h2>{{ .Description }}</h2>
+      <p>{{ .Description }}</p>
       <div class="buttons">
         <div class="col-50">
           <a href="#{{ .Params.cta_link }}" class="btn btn-main">
@@ -10,7 +10,7 @@
           </a>
         </div>
         <div class="col-50">
-          <a href="{{ .Params.cta2_link }}" class="btn btn-secondary">
+          <a href="{{ .Params.cta2_link }}" class="btn btn-main">
             {{ .Params.cta2 }}
           </a>
         </div>

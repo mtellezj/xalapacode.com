@@ -1,9 +1,14 @@
 <footer class="footer">
-  <p class="copyright">&copy;2015-2018 xalapacode.</p>
-  <div class="menu">
+  <p class="copyright">&copy;2015-2019 xalapacode.</p>
+  <nav class="social">
     {{ range .Site.Menus.social }}
       <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
-  </div>
+  </nav>
+  <nav class="resources">
+    {{ range .Site.Menus.resources }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
   <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
 </footer>

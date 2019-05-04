@@ -31,14 +31,14 @@ url = "/eventos"
 weight = 3
 
 
-[[ menu.main ]]
-name = "Bolsa de Trabajo"
-url = "/bolsadetrabajo"
-weight = 5
+# [[ menu.main ]]
+# name = "Bolsa de Trabajo"
+# url = "/bolsadetrabajo"
+# weight = 5
 
 [[ menu.main ]]
-name = "Patrocinadores"
-url = "/patrocinadores"
+name = "Ecosistema"
+url = "/ecosistema"
 weight = 6
 
 [[ menu.main ]]
@@ -51,10 +51,7 @@ name = "Blog"
 url = "/blog"
 weight = 8
 
-[[ menu.main ]]
-name = "Guías"
-url = "/guias"
-weight = 9
+
 
 [[ menu.social ]]
 name = "twitter"
@@ -71,12 +68,17 @@ name = "facebook"
 url = "https://facebook.com/xalapacode"
 weight = 3
 
+[[ menu.resources ]]
+name = "Guías"
+url = "/guias"
+weight = 1
+
 # [[ menu.social ]]
 # name = "meetup"
 # url = "https://www.meetup.com/es-ES/XalapaCode/"
 # weight = 4
 
-[[ menu.social ]]
-name = "telegram"
-url = "https://t.me/joinchat/IfCdQQ9yxbHW7Bgvap24Sw"
-weight = 5
+# [[ menu.social ]]
+# name = "telegram"
+# url = "https://t.me/joinchat/IfCdQQ9yxbHW7Bgvap24Sw"
+# weight = 5

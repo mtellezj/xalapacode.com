@@ -5,7 +5,7 @@
   <div class="section-content">
     {{ range first 100 (where .Data.Pages "Type" "=" "directorio")}}
       <div class="post-thumbnail">
-        <a href="{{ .Permalink }}" title="{{ .Params.skills }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Params.nickname }}"></a>
+        <a href="{{ .Permalink }}" title="{{ .Params.name }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Params.name }}"></a>
       </div>
     {{ end }}
   </div>
