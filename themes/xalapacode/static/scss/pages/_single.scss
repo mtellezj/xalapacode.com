@@ -71,8 +71,34 @@
 
 .single {
   .post-footer {
-    margin-top: 5em;
+    margin: 5em 0 1em;
     background-color: rgba(67,76,132, 0.3);
     padding: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .single {
+    .container {
+      padding: 0
+    }
+  }
+
+  .single-blog {
+    .container {
+      .post-header {
+        width: 90%;
+        padding-bottom: 1em;
+      }
+
+      .post-thumbnail {
+        width: 95%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+          border: 1px solid rgb(240, 240, 240);
+        }
+      }
+    }
   }
 }

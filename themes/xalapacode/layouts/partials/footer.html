@@ -2,7 +2,7 @@
   <p class="copyright">&copy;2015-2019 xalapacode.</p>
   <nav class="social">
     {{ range .Site.Menus.social }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
+      <a href="{{.URL }}"><img src="/img/{{ .Name }}.svg" alt="{{ .Name }} icon" class="svg"></a>
     {{ end }}
   </nav>
   <nav class="resources">

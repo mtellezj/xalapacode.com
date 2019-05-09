@@ -1,8 +1,6 @@
 .page-blog {
   .container {
-    padding: 4em;
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
 
@@ -10,6 +8,14 @@
       padding: 1em;
       border: 1px solid rgb(240, 240, 240);
       box-shadow: 2px 3px 5px rgb(240, 240, 240);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-blog {
+    .container {
+      grid-template-columns: 1fr;
     }
   }
 }

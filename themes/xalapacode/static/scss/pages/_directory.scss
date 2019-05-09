@@ -1,7 +1,6 @@
 .page-directory {
   .container {
     display: grid;
-    padding: 4em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 4em;
 
@@ -21,6 +20,15 @@
           height: auto;
         }
       }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .page-directory {
+    .container {
+      grid-template-columns: 1fr;
     }
   }
 }

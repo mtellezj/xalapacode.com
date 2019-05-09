@@ -1,7 +1,6 @@
 .page-events {
 
   .container {
-    padding: 4em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
@@ -39,6 +38,11 @@
   }
 }
 
-.page-event {
 
+@media screen and (max-width: 767px) {
+  .page-events {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
 }
