@@ -1,10 +1,8 @@
-<section class="section blog">
-  <div class="section-title">
-    <h2>Blog Comunidad</h2>
-  </div>
-  <div class="section-content">
-    {{ range first 4 (where .Data.Pages "Type" "=" "blog")}}
-      {{ partial "post-tiny.html" . }}
-    {{ end }}
-  </div>
-</section>
+<div class="section-title">
+  <h2>Blog Comunidad</h2>
+</div>
+<div class="section-content">
+  {{ range first 6 (where .Data.Pages "Type" "=" "blog")}}
+    {{ partial "post-tiny.html" . }}
+  {{ end }}
+</div>

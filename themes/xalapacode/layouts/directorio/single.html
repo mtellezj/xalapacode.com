@@ -8,27 +8,25 @@
 
   <main class="main">
     <div class="container">
-      <div class="row">
-        <div class="col-100">
+      <div class="post-header">
+        <div class="post-thumbnail">
+          <img src="{{ .Params.thumbnail }}" alt="{{ .Params.nickname }}" class="thumbnail">
+        </div>
+        <div class="post-description">
           <div class="post-title">
             <h1>{{ .Params.Name }}</h1>
           </div>
-          <div class="post-thumbnail">
-            <img src="{{ .Params.thumbnail }}" alt="{{ .Params.nickname }}" class="thumbnail">
-          </div>
-          <div class="post-meta">
-            <div class="rol"><strong>Rol</strong>: {{ .Params.rol }}</div>
-            <div class="disponibility"><strong>Disponibilidad para trabajo</strong>: {{ .Params.disponibility }}</div>
-            <div class="website"><strong>Sitio Web</strong>: <a href="{{ .Params.website }}">{{ .Params.website }}</a></div>
-            <div class="skills"><strong>Habilidades:</strong> {{ .Params.skills }}</div>
-          </div>
-          <div class="post-content">
-            <p>{{ .Content }}</p>
-          </div>
-          <div class="post-footer">
-            <p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
-          </div>
+          <div class="rol"><strong>Rol</strong>: {{ .Params.rol }}</div>
+          <div class="disponibility"><strong>Disponibilidad para trabajo</strong>: {{ .Params.disponibility }}</div>
+          <div class="website"><strong>Sitio Web</strong>: <a href="{{ .Params.website }}">{{ .Params.website }}</a></div>
+          <div class="skills"><strong>Habilidades:</strong> {{ .Params.skills }}</div>
         </div>
+      </div>
+      <div class="post-content">
+        <p>{{ .Content }}</p>
+      </div>
+      <div class="post-footer">
+        <p class="post-meta">Publicado por <a href="/directorio/{{.Params.author}}"><strong>{{ .Params.author }}</strong></a> el {{ .Date.Format "2006-01-02" }}</p>
       </div>
     </div>
   </main>

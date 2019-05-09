@@ -8,38 +8,36 @@
 
   <main class="main">
     <div class="container">
-      <div class="row">
-        {{ range (.Pages.ByParam "event_date").Reverse }}
-        <div class="col-33 post">
-          <div class="post-title">
-            <h1>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h1>
-          </div>
-          {{ if .Params.thumbnail }}
-            <div class="post-thumbnail">
-              <a href="{{ .Permalink }}">
-                <img width="400" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-              </a>
-            </div>
-          {{ end }}
-          <div class="post-content">
-            <h3>{{ .Params.description }}</h3>
-          </div>
-          <div class="post-place">
-            Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}
-          </div>
-          <div class="post-topics">
-            {{ range .Params.topics }}
-              <div class="topic">{{ . }}</div>
-            {{ end }}
-          </div>
-          <div class="post-footer">
-            <a href="{{ .Permalink }}">Leer más</a>
-          </div>
+      {{ range (.Pages.ByParam "event_date").Reverse }}
+      <div class="post">
+        <div class="post-title">
+          <h1>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h1>
         </div>
+        {{ if .Params.thumbnail }}
+          <div class="post-thumbnail">
+            <a href="{{ .Permalink }}">
+              <img width="400" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+            </a>
+          </div>
         {{ end }}
+        <div class="post-content">
+          <p>{{ .Params.description }}</p>
+        </div>
+        <div class="post-place">
+          Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}
+        </div>
+        <!-- <div class="post-topics">
+          {{ range .Params.topics }}
+            <div class="topic">{{ . }}</div>
+          {{ end }}
+        </div> -->
+        <div class="post-footer">
+          <a href="{{ .Permalink }}">Leer más</a>
+        </div>
       </div>
+      {{ end }}
     </div>
   </main>
 

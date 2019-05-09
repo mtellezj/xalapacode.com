@@ -25,7 +25,7 @@
         <p>Lugar: {{ .Params.event_place }}{{ if .Params.turnout }}, asistencia: {{ .Params.turnout }} personas.{{ end }}</p>
       </div>
       <div class="post-footer">
-        <p class="post-meta">Publicado por <strong>{{ .Params.author }}</strong> el {{ .Date.Format "2006-01-02" }}</p>
+        <p class="post-meta">Publicado por <a href="/directorio/{{.Params.author}}"><strong>{{ .Params.author }}</strong></a> el {{ .Date.Format "2006-01-02" }}</p>
       </div>
     </div>
   </main>

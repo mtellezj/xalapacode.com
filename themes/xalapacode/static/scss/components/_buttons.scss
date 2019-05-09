@@ -10,10 +10,11 @@
   height: 3.6em;
 
   &-main {
-    background-color: $blue;
-    color: #fff;
+    background-color: $sky;
+    color: $almost-white;
     &:hover {
-      background-color: $sky;
+      background-color: $almost-white;
+      color: $purple;
     }
   }
 

@@ -1,7 +1,7 @@
 <section class="section events">
   <h2 class="events-title">Próximos eventos</h2>
   <div class="container">
-    {{ range first 1 (where (.Pages.ByParam "event_date").Reverse "Type" "eventos" ) }}
+    {{ range first 3 (where (.Pages.ByParam "event_date").Reverse "Type" "eventos" ) }}
       <div class="post-thumbnail">
         <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail }}" alt="Cartel del evento"></a>
       </div>

@@ -1,9 +1,8 @@
 .post {
-  padding-right: 1.25em;
+  padding: 0.25em;
 
   .post-title {
     a {
-      font-size: 1.5rem;
       color: $purple;
       text-decoration: none;
 
@@ -13,4 +12,9 @@
     }
     }
 
+}
+
+
+.post-tiny {
+  box-shadow: 3px 3px 5px rgb(245, 245, 245);
 }

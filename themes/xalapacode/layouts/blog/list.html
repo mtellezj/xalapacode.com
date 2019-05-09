@@ -8,22 +8,20 @@
 
   <main class="main">
     <div class="container">
-      <div class="row">
-        <div class="col-100">
-          {{ range .Data.Pages.ByPublishDate.Reverse }}
-            <div class="post-title">
-              <h1>{{ .Title }}</h1>
-              <p>Autor: <a href="{{ .Params.author_uri }}">{{ .Params.author }}</a></p>
-            </div>
-            <div class="post-content">
-              {{ .Params.description }}
-            </div>
-            <div class="post-footer">
-              <a href="{{ .Permalink }}">Leer más</a>
-            </div>
-          {{ end }}
+      {{ range .Data.Pages.ByPublishDate.Reverse }}
+        <div class="post">
+          <div class="post-title">
+            <h3>{{ .Title }}</h3>
+            <p>Autor: <a href="{{ .Params.author_uri }}">{{ .Params.author }}</a></p>
+          </div>
+          <div class="post-content">
+           <p> {{ .Params.description }}</p>
+          </div>
+          <div class="post-footer">
+            <a href="{{ .Permalink }}">Leer más</a>
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </main>
 

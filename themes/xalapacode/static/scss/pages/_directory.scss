@@ -1,0 +1,34 @@
+.page-directory {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4em;
+
+    .member {
+      .post-title {
+        h4 {
+          a {
+            text-decoration: none;
+            color: $purple;
+          }
+        }
+      }
+
+      .post-thumbnail {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .page-directory {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}

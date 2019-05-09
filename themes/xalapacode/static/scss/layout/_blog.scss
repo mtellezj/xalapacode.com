@@ -1,0 +1,19 @@
+.blog-home {
+  .section-title {
+    text-align: center;
+  }
+  .section-content {
+    display: grid;
+    padding: 4em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-home {
+    .section-content {
+      grid-template-columns: 1fr;
+    }
+  }
+}
