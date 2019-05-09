@@ -29,11 +29,6 @@ name = "Eventos"
 url = "/eventos"
 weight = 3
 
-# [[ menu.main ]]
-# name = "Bolsa de Trabajo"
-# url = "/bolsadetrabajo"
-# weight = 5
-
 [[ menu.main ]]
 name = "Ecosistema"
 url = "/ecosistema"
@@ -75,13 +70,3 @@ weight = 1
 name = "Identidad"
 url = "/identidad"
 weight = 2
-
-# [[ menu.social ]]
-# name = "meetup"
-# url = "https://www.meetup.com/es-ES/XalapaCode/"
-# weight = 4
-
-# [[ menu.social ]]
-# name = "telegram"
-# url = "https://t.me/joinchat/IfCdQQ9yxbHW7Bgvap24Sw"
-# weight = 5
