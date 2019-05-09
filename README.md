@@ -1,23 +1,10 @@
 # sitio web xalapacode.com
 
-## Contribuyendo al sitio web
-
-1. Instala y configura [Hugo](http://gohugo.io/)
-1. Haz fork de este repo https://github.com/XalapaCode/xalapacode.com/
-1. Clona tu fork (`git clone https://github.com/tu/elfork.git`)
-1. Crea una nueva rama desde master (`git checkout -b nombre-de-la-rama`)
-1. Haz la contribución (y commits)
-1. Sube tu branch (`git push -u origin nombre-de-la-rama`) y crea el PR
-1. Espera por la aprobación y merge de algun administrador
-1. Espera por el despliegue a https://xalapacode.com
-1. Actualiza tu rama `master` con los cambios remotos
-  - cambia a la rama master (`git checkout master`)
-  - agrega el repositorio principal a tus remotos (este solo lo necesitas correr una vez por cada repositorio local) `git remote add upstream https://github.com/XalapaCode/xalapacode.com.git`
-  - actualiza tu rama `master` local `git pull upstream master`
-1. borra tu rama, los cambios ya están en `master`
-  - `git branch -d nombre-de-la-rama`
-
 ## Construyendo el proyecto
+
+Instala y configura [Hugo](http://gohugo.io/) y [Sass](https://sass-lang.com/) (Si usas linux seguro tienen un paquete instalable, e.g. `gohugo` y `sassc`)
+
+Ejecuta:
 
 `make`
 
