@@ -44,19 +44,18 @@
 }
 
 .directory {
-  .post-thumbnail {
+  .section-content {
+    display: flex;
+    flex-flow: row wrap;
 
-    display: inline-block;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    .post-thumbnail {
+      margin-right: 1em;
+      margin-bottom: 1em;
 
-    img {
-      max-width: 100px;
-      height: auto;
+      img {
+        max-width: 100px;
+        height: auto;
+      }
     }
   }
-}
-
-.blog {
-
 }
