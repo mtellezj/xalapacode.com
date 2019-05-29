@@ -10,3 +10,7 @@ email = "hola@comunidadtx.com"
 
 
 ComunidadTX es una comunidad amiga del puerto de Veracruz que nos ha visitado y participado en nuestros meetups y apoyado en la difusión de nuestros eventos.
+
+## Sobre Comunidad TX
+
+Conectando software, talento y negocios, los puedes encontrar [Comunidad TX](www.facebook.com/groups/comunidadtx)
