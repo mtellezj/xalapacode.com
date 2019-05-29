@@ -1,0 +1,60 @@
+.page-ecosystem {
+  .container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+  }
+
+  .ally {
+    background-color: #fff;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 2px 2px 2px rgb(240, 240, 240);
+    padding: 2rem;
+
+    h1 {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    a {
+      color: $purple;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    .post-content {
+      padding-top: 1rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .page-ecosystem {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.single-ecosystem {
+
+  .post-title {
+    text-align: center;
+
+  }
+
+  .post-thumbnail {
+    width: 40%;
+    margin: 0 auto;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
