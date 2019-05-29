@@ -8,4 +8,4 @@ site:
 	hugo
 
 css:
-	sass $(STATIC_DIR)scss/main.scss:$(STATIC_DIR)css/main.css --style=compressed
+	sass $(STATIC_DIR)scss/main.scss $(STATIC_DIR)css/main.css --style=compressed
