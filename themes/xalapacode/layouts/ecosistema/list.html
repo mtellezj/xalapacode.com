@@ -3,29 +3,24 @@
 
 {{ partial "head.html" . }}
 
-<body class="page page-sponsors">
+<body class="page page-ecosystem">
   {{ partial "header.html" . }}
 
   <main class="main">
     <div class="container">
-      <div class="row">
-        <div class="col-33">
-          {{ range .Data.Pages.ByPublishDate.Reverse }}
-            <div class="post-title">
-              <h1>{{ .Title }}</h1>
-            </div>
-            <div class="post-thumbnail">
-              <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-            </div>
-            <div class="post-content">
-              {{ .Params.description }}
-            </div>
-            <div class="post-footer">
-              <a href="{{ .Permalink }}">Leer más</a>
-            </div>
-          {{ end }}
+      {{ range .Data.Pages.ByPublishDate.Reverse }}
+        <div class="ally">
+          <div class="post-title">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+          </div>
+          <div class="post-thumbnail">
+            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail }}" alt="{{ .Title }}"></a>
+          </div>
+          <div class="post-content">
+            {{ .Summary }}
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </main>
 
